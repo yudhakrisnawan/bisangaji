@@ -1,4 +1,22 @@
 <!DOCTYPE html>
+
+<?php
+include "connection/koneksi.php";
+session_start();
+ob_start();
+
+$id = $_SESSION['id_user'];
+
+if(isset ($_SESSION['email'])){
+    $query = "select * from user natural join level_user where id_user = $id";
+
+    mysqli_query($conn, $query);
+    $sql = mysqli_query($conn, $query);
+    
+    while($r = mysqli_fetch_array($sql)){
+        $nama_user = $r['nama_user'];
+?>
+
 <html lang="en">
 
 <head>
@@ -19,7 +37,7 @@
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <img src="img/dashboard.png" width="30px" height="30px">
                 </div>
@@ -27,19 +45,19 @@
             </a>
             <hr class="sidebar-divider my-0">
             <li class="nav-item active">
-                <a class="nav-link" href="beranda.html">
+                <a class="nav-link" href="beranda.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Beranda</span>
                 </a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="manajemen_user.html">
+                <a class="nav-link" href="manajemen_user.php">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Manajemen user</span>
                 </a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="manajemen_konten.html">
+                <a class="nav-link" href="manajemen_konten.php">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Manajemen konten</span>
                 </a>
@@ -63,19 +81,20 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">King Rijal</span>
-                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $r['nama_user'];?></span>
+                                <img class="img-profile rounded-circle"
+                                    src="img/undraw_profile.svg">
                             </a>
                             
                             <!-- Dropdown User -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="user_setting.html">
+                                <a class="dropdown-item" href="user_setting.php">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     User Settings
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="index.html" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="index.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -88,76 +107,44 @@
             <!-- Content -->
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Manajemen User</h1>
+                    <h1 class="h3 mb-0 text-gray-800">Manajemen Konten</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
                     <div class="card shadow mb-4">
                         <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead align="center">
-                                        <tr>
-                                            <th>No.</th>
-                                            <th>Nama</th>
-                                            <th>Email</th>
-                                            <th>Aksi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody align="center">
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Yudha</td>
-                                            <td>Yudha@gmail.com</td>
-                                            <td><button type="delete">X</button></td>
-                                        </tr>
-                                         <tr>
-                                            <td>2</td>
-                                            <td>Rizal</td>
-                                            <td>rizal@gmail.com</td>
-                                            <td><button type="delete">X</button></td>
-                                        </tr>
-                                         <tr>
-                                            <td>3</td>
-                                            <td>Farid</td>
-                                            <td>farid@gmail.com</td>
-                                            <td><button type="delete">X</button></td>
-                                        </tr>
-                                         <tr>
-                                            <td>4</td>
-                                            <td>Cahya</td>
-                                            <td>cahya@gmail.com</td>
-                                            <td><button type="delete">X</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5</td>
-                                            <td>Dini</td>
-                                            <td>dini@gmail.com</td>
-                                            <td><button type="delete">X</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>6</td>
-                                            <td>Aini</td>
-                                            <td>Aini@gmail.com</td>
-                                            <td><button type="delete">X</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>7</td>
-                                            <td>Erwin</td>
-                                            <td>Erwin@gmail.com</td>
-                                            <td><button type="delete">X</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>8</td>
-                                            <td>Yusuf</td>
-                                            <td>Yusuf@gmail.com</td>
-                                            <td><button type="delete">X</button></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="responsive">
+                                <div class="judul">
+                                    <h4 align="center">Upload Video Baru</h4>
+                                    <br>
+                                </div>
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="judul" class="col-sm-2 col-form-label">Judul Video</label>
+                                        <div class="col-sm-9">
+                                            <input type="password" class="form-control" id="inputPasswordOld"
+                                                placeholder="Masukkan judul video">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label">Video</label>
+                                        <div class="col-sm-9">
+                                            <div class="controls">
+                                                <input class="span11" name="video" type="file" accept="video/*" required/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label"></label>
+                                        <div class="col-sm-9">
+                                            <button type="submit" class="btn btn-success mb-5">Tambahkan</button>
+                                        </div>
+                                    </div>
+                                </form>     
                             </div>
                         </div>
-                    </div>
+                    </div>             
                 </section>
+                <br><br><br><br><br><br><br><br>
             </div>
             <!-- End of Content -->
 
@@ -186,7 +173,7 @@
                 <div class="modal-body">Pilih "Keluar" jika ingin meninggalkan halaman.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                    <a class="btn btn-success" href="index.html">Keluar</a>
+                    <a class="btn btn-success" href="logout.php">Keluar</a>
                 </div>
             </div>
         </div>
@@ -199,3 +186,11 @@
     <script src="js/sb-admin-2.min.js"></script>
 </body>
 </html>
+
+<?php
+  }
+} else {
+  header('location: logout.php');
+}
+ob_flush();
+?>

@@ -1,6 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<?php
+include "connection/koneksi.php";
+session_start();
+ob_start();
+
+$id = $_SESSION['id_user'];
+
+if(isset ($_SESSION['email'])){
+    $query = "select * from user natural join level_user where id_user = $id";
+
+    mysqli_query($conn, $query);
+    $sql = mysqli_query($conn, $query);
+    
+    while($r = mysqli_fetch_array($sql)){
+        $nama_user = $r['nama_user'];
+?>
+
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +36,10 @@
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.html">
+        <?php
+            if($r['id_level'] == 2){
+        ?>
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <img src="img/dashboard.png" width="30px" height="30px">
                 </div>
@@ -27,7 +47,7 @@
             </a>
             <hr class="sidebar-divider my-0">
             <li class="nav-item active">
-                <a class="nav-link" href="beranda.html">
+                <a class="nav-link" href="beranda.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Beranda</span>
                 </a>
@@ -40,9 +60,9 @@
                 </a>
                 <div id="collapseNol" class="collapse" aria-labelledby="headingNol" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="hijaiyah1.html">Huruf hijaiyah</a>
-                        <a class="collapse-item" href="hijaiyah2.html">Cara membaca hijaiyah</a>
-                        <a class="collapse-item" href="hijaiyah3.html">Angka hijaiyah</a>
+                        <a class="collapse-item" href="hijaiyah1.php">Huruf hijaiyah</a>
+                        <a class="collapse-item" href="hijaiyah2.php">Cara membaca hijaiyah</a>
+                        <a class="collapse-item" href="hijaiyah3.php">Angka hijaiyah</a>
                     </div>
                 </div>
             </li>
@@ -54,9 +74,9 @@
                 </a>
                 <div id="collapseSatu" class="collapse" aria-labelledby="headingSatu" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="iqro1.html">Iqro 1</a>
-                        <a class="collapse-item" href="iqro2.html">Iqro 2</a>
-                        <a class="collapse-item" href="iqro3.html">Iqro 3</a>
+                        <a class="collapse-item" href="iqro1.php">Iqro 1</a>
+                        <a class="collapse-item" href="iqro2.php">Iqro 2</a>
+                        <a class="collapse-item" href="iqro3.php">Iqro 3</a>
                     </div>
                 </div>
             </li>
@@ -69,9 +89,9 @@
                 <div id="collapseDua" class="collapse" aria-labelledby="headingDua"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="doa1.html">Doa makan</a>
-                        <a class="collapse-item" href="doa2.html">Doa tidur</a>
-                        <a class="collapse-item" href="doa3.html">Doa keluar/masuk masjid</a>
+                        <a class="collapse-item" href="doa1.php">Doa makan</a>
+                        <a class="collapse-item" href="doa2.php">Doa tidur</a>
+                        <a class="collapse-item" href="doa3.php">Doa keluar/masuk masjid</a>
                     </div>
                 </div>
             </li>
@@ -84,9 +104,9 @@
                 <div id="collapseTiga" class="collapse" aria-labelledby="headingTiga"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="surat1.html">Al-Fatihah</a>
-                        <a class="collapse-item" href="surat2.html">Ad-Duha</a>
-                        <a class="collapse-item" href="surat3.html">Asy-Syams</a>
+                        <a class="collapse-item" href="surat1.php">Al-Fatihah</a>
+                        <a class="collapse-item" href="surat2.php">Ad-Duha</a>
+                        <a class="collapse-item" href="surat3.php">Asy-Syams</a>
                     </div>
                 </div>
             </li>
@@ -99,13 +119,48 @@
                 <div id="collapseEmpat" class="collapse" aria-labelledby="headingEmpat"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="video.html">Video belajar mengaji</a>
+                        <a class="collapse-item" href="video.php">Video belajar mengaji</a>
                     </div>
                 </div>
             </li>
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
+        <?php
+            } else if($r['id_level'] == 1){
+        ?>
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <img src="img/dashboard.png" width="30px" height="30px">
+                </div>
+                <div class="sidebar-brand-text mx-3">Bisa Ngaji</div>
+            </a>
+            <hr class="sidebar-divider my-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="beranda.php">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Beranda</span>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="manajemen_user.php">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Manajemen user</span>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="manajemen_konten.php">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Manajemen konten</span>
+                </a>
+            </li>
+            <br>
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        <?php
+            }
+        ?>
         </ul>
         <!-- End of Sidebar -->
 
@@ -121,7 +176,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">King Rijal</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $r['nama_user'];?></span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
@@ -129,12 +184,12 @@
                             <!-- Dropdown User -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="user_setting.html">
+                                <a class="dropdown-item" id="custom-dropdown" href="user_setting.php">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     User Settings
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="index.html" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" id="custom-dropdown" href="logout.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -147,50 +202,37 @@
             <!-- Content -->
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">User Setting</h1>
+                    <h1 class="h3 mb-0 text-gray-800">Beranda</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <form>
-                        <div class="form-group row">
-                            <label for="Username" class="col-sm-2 col-form-label">Nama</label>
-                            <div class="col-sm-10">
-                                <p>null</p>
+                    <div class="container">
+                        <center>
+                            <h1 class="h3 mb-0 text-gray-800">SELAMAT DATANG DI BISA NGAJI</h1>
+                        </center>
+                    </div>
+                    <br>
+                    <div class="container">      
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/beranda2.png" class="d-block w-100" alt="gambar">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/beranda3.png" class="d-block w-100" alt="gambar">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/beranda4.jpeg" class="d-block w-100" alt="gambar">
                             </div>
                         </div>
-                        <div class="form-group row">
-                            <label for="Email" class="col-sm-2 col-form-label">Email</label>
-                            <div class="col-sm-10">
-                                <p>null</p>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputPasswordOld" class="col-sm-2 col-form-label">Password Lama</label>
-                            <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPasswordOld"
-                                    placeholder="Masukkan Password Lama">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputPasswordNew" class="col-sm-2 col-form-label">Password Baru</label>
-                            <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPasswordNew"
-                                    placeholder="Masukkan Password Baru">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputPassword" class="col-sm-2 col-form-label">Ulangi Password</label>
-                            <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPasswordRepeat"
-                                    placeholder="Ulangi Password Baru">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-sm-2 col-form-label"></label>
-                            <div class="col-sm-10">
-                                <button type="submit" class="btn btn-success mb-5">Simpan Perubahan</button>
-                            </div>
-                        </div>
-                    </form>                    
+                        <a class="carousel-control-prev" role="button" href="#carouselExampleControls" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+                        <a class="carousel-control-next" role="button" href="#carouselExampleControls" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+                    </div>
                 </section>
             </div>
             <!-- End of Content -->
@@ -220,7 +262,7 @@
                 <div class="modal-body">Pilih "Keluar" jika ingin meninggalkan halaman.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                    <a class="btn btn-success" href="index.html">Keluar</a>
+                    <a class="btn btn-success" href="logout.php">Keluar</a>
                 </div>
             </div>
         </div>
@@ -233,3 +275,10 @@
     <script src="js/sb-admin-2.min.js"></script>
 </body>
 </html>
+<?php
+  }
+} else {
+  header('location: logout.php');
+}
+ob_flush();
+?>
