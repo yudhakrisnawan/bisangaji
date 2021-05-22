@@ -50,77 +50,25 @@ if(isset ($_SESSION['email'])){
                     <span>Beranda</span>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNol"
-                    aria-expanded="true" aria-controls="collapseNol">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Mengenal Hijaiyah</span>
+            <li class="nav-item active">
+                <a class="nav-link" href="manajemen_user.php">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Manajemen User</span>
                 </a>
-                <div id="collapseNol" class="collapse" aria-labelledby="headingNol" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="hijaiyah1.php">Huruf hijaiyah</a>
-                        <a class="collapse-item" href="hijaiyah2.php">Cara membaca hijaiyah</a>
-                        <a class="collapse-item" href="hijaiyah3.php">Angka hijaiyah</a>
-                    </div>
-                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSatu"
                     aria-expanded="true" aria-controls="collapseSatu">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Iqro</span>
+                    <span>Manajemen Konten</span>
                 </a>
                 <div id="collapseSatu" class="collapse" aria-labelledby="headingSatu" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="iqro1.php">Iqro 1</a>
-                        <a class="collapse-item" href="iqro2.php">Iqro 2</a>
-                        <a class="collapse-item" href="iqro3.php">Iqro 3</a>
+                        <a class="collapse-item" href="video_admin.php">Video</a>
                     </div>
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDua"
-                    aria-expanded="true" aria-controls="collapseDua">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Doa Sehari-hari</span>
-                </a>
-                <div id="collapseDua" class="collapse" aria-labelledby="headingDua"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="doa1.php">Doa makan</a>
-                        <a class="collapse-item" href="doa2.php">Doa tidur</a>
-                        <a class="collapse-item" href="doa3.php">Doa keluar/masuk masjid</a>
-                    </div>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTiga"
-                    aria-expanded="true" aria-controls="collapseTiga">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Surat-surat Pendek</span>
-                </a>
-                <div id="collapseTiga" class="collapse" aria-labelledby="headingTiga"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="surat1.php">Al-Fatihah</a>
-                        <a class="collapse-item" href="surat2.php">Ad-Duha</a>
-                        <a class="collapse-item" href="surat3.php">Asy-Syams</a>
-                    </div>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEmpat"
-                    aria-expanded="true" aria-controls="collapseEmpat">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Video Belajar Mengaji</span>
-                </a>
-                <div id="collapseEmpat" class="collapse" aria-labelledby="headingEmpat"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="video.php">Video Belajar Mengaji</a>
-                    </div>
-                </div>
-            </li>
+            <br>
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
@@ -152,7 +100,7 @@ if(isset ($_SESSION['email'])){
                                     User Settings
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="index.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -165,35 +113,83 @@ if(isset ($_SESSION['email'])){
             <!-- Content -->
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Video Belajar Mengaji</h1>
+                    <h1 class="h3 mb-0 text-gray-800">Manajemen User</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="row">
-                            <?php
-                            $read_video = "SELECT * FROM video";
-                            $query_read = mysqli_query($conn, $read_video);
-                            while($row = mysqli_fetch_array($query_read)){
-                                $judul_video = $row['judul_video'];     
-                            ?>
-                                <div class="col-lg-6 col-lg-5">
-                                    <div class="card shadow mb-4">
-                                        <div
-                                            class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                            <h6 class="m-0 font-weight-bold text-dark"><?php echo $row['judul_video'];?></h6>
-                                        </div>
-                                        <!-- Card Body -->
-                                        <div class="card-body">
-                                            <video src="<?php echo 'video/' . $row['nama_video'];?>" width="100%" controls></video>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="responsive">
+                                <div class="judul">
+                                    <h4 align="center">Tambah User Baru</h4>
+                                    <br>
+                                </div>
+                                <form action="" method="post" class="user">
+                                    <div class="form-group row">
+                                        <label for="Nama Lengkap" class="col-sm-2 col-form-label">Nama Lengkap</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" name="nama_user" class="form-control" placeholder="Nama Lengkap" placeholder="Masukkan Nama Lengkap" required>
                                         </div>
                                     </div>
-                                </div>
-                            <?php 
-                            }
-                            ?>
-                        </div> 
+                                    <div class="form-group row">
+                                        <label for="Email" class="col-sm-2 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" name="email" class="form-control" placeholder="Nama Lengkap" placeholder="Masukkan Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="Password" class="col-sm-2 col-form-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" name="password" class="form-control" placeholder="Password" placeholder="Masukkan Password" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label"></label>
+                                        <div class="col-sm-10">
+                                            <button type="submit" name="kirim_daftar" class="btn btn-success mb-5">Tambahkan User</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <?php
+                                    if(isset($_POST['kirim_daftar'])){
+                                        $email = $_POST['email'];
+                                        $password = $_POST['password'];
+                                        $nama_user = $_POST['nama_user'];
+                                        $level_user = 2;
+                                        $email_valid = false;
+                                        $verifikasi_email = "SELECT email FROM user";
+                                        $query_cek = mysqli_query($conn, $verifikasi_email);
+                                        while($data = mysqli_fetch_array($query_cek)){
+                                            $verifikasi_email = $data['email'];
+                                            if($email != $verifikasi_email){
+                                                $email_valid = true;
+                                            } elseif($email == $verifikasi_email){
+                                                $email_valid = false;
+                                                break;
+                                            }
+                                        }
+                                        if($email_valid == true){
+                                            $query_daftar = "INSERT INTO user VALUES('','$email','$password','$nama_user','$level_user')";
+                                            $sql_daftar = mysqli_query($conn, $query_daftar);
+                                            if($sql_daftar){
+                                                $_SESSION['daftar'] = 'sukses';
+                                                echo "<script>alert('Berhasil Menambahkan User!')</script>";
+                                            } else {
+                                                echo "<script>alert('Gagal Menambahkan User!')</script>";
+                                            }
+                                        } else {
+                                            echo "<script>alert('Email Sudah Dipakai!')</script>";
+                                        }                
+                                    }
+                                ?> 
+                            </div>
+                        </div>
+                    </div>             
                 </section>
+                <br><br><br><br><br><br><br><br>
             </div>
-            
+            <!-- End of Content -->
+
+            <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">

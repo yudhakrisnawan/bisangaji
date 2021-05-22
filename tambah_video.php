@@ -53,14 +53,20 @@ if(isset ($_SESSION['email'])){
             <li class="nav-item active">
                 <a class="nav-link" href="manajemen_user.php">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen user</span>
+                    <span>Manajemen User</span>
                 </a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="manajemen_konten.php">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen konten</span>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSatu"
+                    aria-expanded="true" aria-controls="collapseSatu">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Manajemen Konten</span>
                 </a>
+                <div id="collapseSatu" class="collapse" aria-labelledby="headingSatu" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="video_admin.php">Video</a>
+                    </div>
+                </div>
             </li>
             <br>
             <div class="text-center d-none d-md-inline">
@@ -117,12 +123,12 @@ if(isset ($_SESSION['email'])){
                                     <h4 align="center">Upload Video Baru</h4>
                                     <br>
                                 </div>
-                                <form>
+                                <form action="" method="post" enctype='multipart/form-data'>
                                     <div class="form-group row">
                                         <label for="judul" class="col-sm-2 col-form-label">Judul Video</label>
                                         <div class="col-sm-9">
-                                            <input type="password" class="form-control" id="inputPasswordOld"
-                                                placeholder="Masukkan judul video">
+                                            <input type="text" name="judul_video" class="form-control" 
+                                                placeholder="Masukkan judul video" required>
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -136,10 +142,29 @@ if(isset ($_SESSION['email'])){
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label"></label>
                                         <div class="col-sm-9">
-                                            <button type="submit" class="btn btn-success mb-5">Tambahkan</button>
+                                            <button type="submit" name="upload_video" class="btn btn-success mb-5">Tambahkan</button>
                                         </div>
                                     </div>
-                                </form>     
+                                </form>
+                                <?php
+                                if(isset($_POST['upload_video'])){
+                                    $judul = $_POST['judul_video'];
+                                    $file_name = $_FILES['video']['name'];
+                                    $temp_name = $_FILES['video']['tmp_name'];
+                                    $file_destination = "video/". $file_name;
+                                    
+                                    if(move_uploaded_file($temp_name, $file_destination)){
+                                        $query = "INSERT INTO video VALUES('','$judul','$file_name')";
+                                        if(mysqli_query($conn, $query)){
+                                            echo "<script>alert('Video berhasil diupload!')</script>";
+                                        } else {
+                                            echo "<script>alert('Gagal mengupload video!')</script>";
+                                        }
+                                    } else {
+                                        echo "<script>alert('Pilih video terlebih dahulu!')</script>";
+                                    } 
+                                }
+                                ?>     
                             </div>
                         </div>
                     </div>             

@@ -18,6 +18,7 @@ if(isset ($_SESSION['email'])){
 ?>
 
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +57,7 @@ if(isset ($_SESSION['email'])){
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNol"
                     aria-expanded="true" aria-controls="collapseNol">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Mengenal Hijaiyah</span>
+                    <span>Mengenal hijaiyah</span>
                 </a>
                 <div id="collapseNol" class="collapse" aria-labelledby="headingNol" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
@@ -84,7 +85,7 @@ if(isset ($_SESSION['email'])){
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDua"
                     aria-expanded="true" aria-controls="collapseDua">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Doa Sehari-hari</span>
+                    <span>Doa sehari-hari</span>
                 </a>
                 <div id="collapseDua" class="collapse" aria-labelledby="headingDua"
                     data-parent="#accordionSidebar">
@@ -99,7 +100,7 @@ if(isset ($_SESSION['email'])){
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTiga"
                     aria-expanded="true" aria-controls="collapseTiga">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Surat-surat Pendek</span>
+                    <span>Surat-surat pendek</span>
                 </a>
                 <div id="collapseTiga" class="collapse" aria-labelledby="headingTiga"
                     data-parent="#accordionSidebar">
@@ -114,12 +115,12 @@ if(isset ($_SESSION['email'])){
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEmpat"
                     aria-expanded="true" aria-controls="collapseEmpat">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Video Belajar Mengaji</span>
+                    <span>Video belajar mengaji</span>
                 </a>
                 <div id="collapseEmpat" class="collapse" aria-labelledby="headingEmpat"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="video.php">Video Belajar Mengaji</a>
+                        <a class="collapse-item" href="video.php">Video belajar mengaji</a>
                     </div>
                 </div>
             </li>
@@ -145,7 +146,7 @@ if(isset ($_SESSION['email'])){
             <li class="nav-item active">
                 <a class="nav-link" href="manajemen_user.php">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen user</span>
+                    <span>Manajemen User</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -190,12 +191,12 @@ if(isset ($_SESSION['email'])){
                             <!-- Dropdown User -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" id="custom-dropdown" href="user_setting.php">
+                                <a class="dropdown-item" href="user_setting.php">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     User Settings
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" id="custom-dropdown" href="logout.php" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -208,42 +209,128 @@ if(isset ($_SESSION['email'])){
             <!-- Content -->
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Beranda</h1>
+                    <h1 class="h3 mb-0 text-gray-800">Video Belajar Mengaji</h1>
                 </div>
+                <div align="right">
+                    <a class="btn btn-success" href="tambah_video.php">Tambah Video Baru</a>
+                </div>
+                <br>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <center>
-                            <h1 class="h3 mb-0 text-gray-800">SELAMAT DATANG DI BISA NGAJI</h1>
-                        </center>
-                    </div>
-                    <br>
-                    <div class="container">      
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/beranda2.png" class="d-block w-100" alt="gambar">
+                    <div class="row">
+                        <?php
+                            if(isset($_POST['hapus_video'])){
+                                $id_video = $_POST['hapus_video'];
+                                $query_read_video = "SELECT * FROM video WHERE id_video = $id_video";
+                                $sql_read_video = mysqli_query($conn, $query_read_video);
+                                $data = mysqli_fetch_assoc($sql_read_video);
+                                $video = $data['nama_video'];
+
+                                if(file_exists("video/$video")){
+                                    unlink("video/$video");
+                                }
+                                $query_hapus_video = "DELETE FROM video WHERE id_video = $id_video";
+                                $sql_hapus_video = mysqli_query($conn, $query_hapus_video);
+                                if($sql_hapus_video){
+                                    echo "<script>alert('Video berhasil!')</script>";
+                                }
+                            }
+                        ?>
+                        <?php
+                        if(isset($_POST['update'])){
+                            $judulbaru = $_POST['judulbaru'];
+                            $id_video = $_POST['update'];
+                            $query_update = "UPDATE video SET judul_video = '$judulbaru' WHERE id_video = '$id_video'";
+                            $sql_update = mysqli_query($conn, $query_update);
+                            if($sql_update){
+                                $_SESSION['updatesukses'] = 'sukses';
+                                echo "<script>alert('Berhasil memperbarui data video!')</script>";
+                            } else {
+                                echo "<script>alert('Gagal memperbarui data video!')</script>";
+                            }
+                        }
+                        ?>   
+                        <?php
+                        $read_video = "SELECT * FROM video";
+                        $query_read = mysqli_query($conn, $read_video);
+                        while($row = mysqli_fetch_array($query_read)){
+                            $judul_video = $row['judul_video'];     
+                        ?>
+                            <div class="col-lg-6 col-lg-5">
+                                <div class="card shadow mb-4">
+                                    <div
+                                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                        <h6 class="m-0 font-weight-bold text-dark"><?php echo $row['judul_video'];?></h6>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body">
+                                        <video src="<?php echo 'video/' . $row['nama_video'];?>" width="100%" controls></video>
+                                        <div align="right">
+                                            <button class="btn btn-warning" data-toggle="modal" data-target="#editJudul<?php echo $row['id_video']; ?>">Edit Judul</button>
+                                            <button class="btn btn-danger" data-toggle="modal" data-target="#hapusVideo<?php echo $row['id_video']; ?>">Hapus Video</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="img/beranda3.png" class="d-block w-100" alt="gambar">
+                            <div class="modal fade" id="hapusVideo<?php echo $row['id_video']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Ingin menghapus <?php echo $row['judul_video']; ?>?</h5>
+                                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">Pilih "Hapus" jika ingin menghapus video.</div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+                                            <form action="" method="post">
+                                                <button name="hapus_video" value="<?php echo $row['id_video']; ?>" class="btn btn-danger">Hapus</button>
+                                            </form> 
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="img/beranda4.jpeg" class="d-block w-100" alt="gambar">
+                            <div class="modal fade" id="editJudul<?php echo $row['id_video']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Ingin menghapus <?php echo $row['judul_video']; ?>?</h5>
+                                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                        <form action="" method="post">
+                                            <div class="modal-body">
+                                                <div class="form-group row">
+                                                    <label for="JudulLama" class="col-sm-2 col-form-label">Judul Lama</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" value="<?php echo $row['judul_video'];?>" disabled>     
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="JudulBaru" class="col-sm-2 col-form-label">Judul Baru</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" name="judulbaru" class="form-control" placeholder="Masukkan Judul Baru" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+                                                <button name="update" value="<?php echo $row['id_video'];?>" class="btn btn-success">Simpan Perubahan</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <a class="carousel-control-prev" role="button" href="#carouselExampleControls" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only"></span>
-                        </a>
-                        <a class="carousel-control-next" role="button" href="#carouselExampleControls" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only"></span>
-                        </a>
-                    </div>
+                        <?php 
+                        }
+                        ?>
+                    </div>               
                 </section>
             </div>
-            <!-- End of Content -->
-
-            <!-- Footer -->
+            
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
@@ -281,6 +368,7 @@ if(isset ($_SESSION['email'])){
     <script src="js/sb-admin-2.min.js"></script>
 </body>
 </html>
+
 <?php
   }
 } else {

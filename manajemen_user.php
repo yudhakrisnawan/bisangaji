@@ -53,14 +53,20 @@ if(isset ($_SESSION['email'])){
             <li class="nav-item active">
                 <a class="nav-link" href="manajemen_user.php">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen user</span>
+                    <span>Manajemen User</span>
                 </a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="manajemen_konten.php">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen konten</span>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSatu"
+                    aria-expanded="true" aria-controls="collapseSatu">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Manajemen Konten</span>
                 </a>
+                <div id="collapseSatu" class="collapse" aria-labelledby="headingSatu" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="video_admin.php">Video</a>
+                    </div>
+                </div>
             </li>
             <br>
             <div class="text-center d-none d-md-inline">
@@ -108,6 +114,10 @@ if(isset ($_SESSION['email'])){
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 class="h3 mb-0 text-gray-800">Manajemen User</h1>
                 </div>
+                <div align="right">
+                    <a class="btn btn-success" href="tambah_user.php">Tambah User Baru</a>
+                </div>
+                <br>
                 <section class="mar-top--x-3 mar-bottom--x-5">
                     <div class="card shadow mb-4">
                         <div class="card-body">
@@ -128,6 +138,20 @@ if(isset ($_SESSION['email'])){
                                     </thead>
                                     <tbody align="center">
                                     <?php
+                                    if(isset($_POST['update'])){
+                                        $passwordbaru = $_POST['passwordbaru'];
+                                        $id_user = $_POST['update'];
+                                        $query_update = "UPDATE user SET password = '$passwordbaru' WHERE id_user = '$id_user'";
+                                        $sql_update = mysqli_query($conn, $query_update);
+                                        if($sql_update){
+                                            $_SESSION['updatesukses'] = 'sukses';
+                                            echo "<script>alert('Berhasil memperbarui data user!')</script>";
+                                        } else {
+                                            echo "<script>alert('Gagal memperbarui data user!')</script>";
+                                        }
+                                    }
+                                    ?>
+                                    <?php
                                         while($r_dt_user = mysqli_fetch_array($sql_data_user)){
                                     ?>
                                         <tr class="odd gradeX">
@@ -135,9 +159,51 @@ if(isset ($_SESSION['email'])){
                                         <td><?php echo $r_dt_user['nama_user']; ?></td>
                                         <td><?php echo $r_dt_user['email']; ?></td>
                                         <td>
+                                            <button class="btn btn-warning"data-toggle="modal" data-target="#editModal<?php echo $r_dt_user['id_user']; ?>">Edit</button>
                                             <button class="btn btn-danger" data-toggle="modal" data-target="#hapusModal<?php echo $r_dt_user['id_user']; ?>">Hapus</button>
                                         </td>
                                         </tr>
+                                        <div class="modal fade" id="editModal<?php echo $r_dt_user['id_user']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Edit data <?php echo $r_dt_user['nama_user']; ?>?</h5>
+                                                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">×</span>
+                                                        </button>
+                                                    </div>
+                                                    <form action="" method="post">
+                                                        <div class="modal-body">
+                                                            <div class="form-group row">
+                                                                <label for="Username" class="col-sm-2 col-form-label">Nama</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="text" class="form-control" value="<?php echo $r_dt_user['nama_user'];?>" disabled>     
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="Email" class="col-sm-2 col-form-label">Email</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="text" class="form-control" value="<?php echo $r_dt_user['email'];?>" disabled>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="inputPasswordNew" class="col-sm-2 col-form-label">Password</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="password" name="passwordbaru" class="form-control" placeholder="Masukkan Password Baru" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+                                                            <button name="update" value="<?php echo $r_dt_user['id_user'];?>" class="btn btn-success">Simpan Perubahan</button>
+                                                        </div>
+                                                    </form>
+                                                    <?php
+                                                    ?>  
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="modal fade" id="hapusModal<?php echo $r_dt_user['id_user']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog" role="document">

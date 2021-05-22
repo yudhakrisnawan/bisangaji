@@ -144,14 +144,20 @@ if(isset ($_SESSION['email'])){
             <li class="nav-item active">
                 <a class="nav-link" href="manajemen_user.php">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen user</span>
+                    <span>Manajemen User</span>
                 </a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="manajemen_konten.php">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen konten</span>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSatu"
+                    aria-expanded="true" aria-controls="collapseSatu">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Manajemen Konten</span>
                 </a>
+                <div id="collapseSatu" class="collapse" aria-labelledby="headingSatu" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="video_admin.php">Video</a>
+                    </div>
+                </div>
             </li>
             <br>
             <div class="text-center d-none d-md-inline">
@@ -211,13 +217,13 @@ if(isset ($_SESSION['email'])){
                                     <div class="form-group row">
                                         <label for="Username" class="col-sm-2 col-form-label">Nama</label>
                                         <div class="col-sm-10">
-                                            <p><?php echo $r['nama_user'];?></p>
+                                            <input type="text" class="form-control" value="<?php echo $r['nama_user'];?>" disabled>
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <label for="Email" class="col-sm-2 col-form-label">Email</label>
                                         <div class="col-sm-10">
-                                            <p><?php echo $r['email'];?></p>
+                                            <input type="text" class="form-control" value="<?php echo $r['email'];?>" disabled>
                                         </div>
                                     </div>
                                     <div class="form-group row">
