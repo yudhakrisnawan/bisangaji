@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 21 Bulan Mei 2021 pada 17.21
+-- Waktu pembuatan: 22 Bulan Mei 2021 pada 14.14
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.4.6
 
@@ -81,8 +81,19 @@ INSERT INTO `user` (`id_user`, `email`, `password`, `nama_user`, `id_level`) VAL
 
 CREATE TABLE `video` (
   `id_video` int(11) NOT NULL,
+  `judul_video` varchar(100) NOT NULL,
   `nama_video` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data untuk tabel `video`
+--
+
+INSERT INTO `video` (`id_video`, `judul_video`, `nama_video`) VALUES
+(4, 'Belajar Rukun Islam', 'islam.mp4'),
+(5, 'Belajar Rukun Iman', 'iman.mp4'),
+(11, 'Belajar Huruf Hijaiyah', 'hijaiyah.mp4'),
+(13, 'Belajar Berdzikir', 'dzikir.mp4');
 
 --
 -- Indexes for dumped tables
@@ -115,13 +126,13 @@ ALTER TABLE `video`
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
 
 --
 -- AUTO_INCREMENT untuk tabel `video`
 --
 ALTER TABLE `video`
-  MODIFY `id_video` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_video` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
