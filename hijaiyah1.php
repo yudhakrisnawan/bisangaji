@@ -161,9 +161,9 @@
                                             <th>No.</th>
                                             <th>Huruf</th>
                                             <th>Bacaan</th>
-                                            <th>Penulisan Huruf Latin</th>
+                                            <th>Huruf Latin</th>
                                             <th>Cara Membaca</th>
-                                            <th>Audio</th>
+                                            <th>Audio (Fathah)</th>
                                         </tr>
                                     </thead>
                                     <tbody align="center">
@@ -171,9 +171,12 @@
                                             <td>1</td>
                                             <td><p class ="arabic_center">ا</p></td>
                                             <td>Alif</td>
-                                            <td> tidak dilambangkan</td>
-                                            <td>Melambangkan bunyi panjang untuk baris fathah sebelumnya</td>
-                                            <th><button>Play</button></th>
+                                            <td>A</td>
+                                            <td>A-I-U</td>
+                                            <th><audio id="player1" src="audio/Fathah/fatah_a.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player1').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                          <tr>
                                             <td>2</td>
@@ -181,7 +184,10 @@
                                             <td>Ba’</td>
                                             <td>B</td>
                                             <td>Ba-Bi-Bu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player2" src="audio/Fathah/fatah_ba.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('player2').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div>
                                         </tr>
                                         <tr>
                                             <td>3</td>
@@ -189,7 +195,10 @@
                                             <td>Ta’</td>
                                             <td>T</td>
                                             <td>Ta-Ti-Tu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player3" src="audio/Fathah/fatah_ta.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player3').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>4</td>
@@ -197,7 +206,10 @@
                                             <td>Tsa’</td>
                                             <td>TS</td>
                                             <td>Tsa-Tsi-Tsu</td> 
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player4" src="audio/Fathah/fatah_sa.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player4').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>5</td>
@@ -205,7 +217,10 @@
                                             <td>Jim</td>
                                             <td>J</td>
                                             <td>Ja-Ji-Ju</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player5" src="audio/Fathah/fatah_ja.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player5').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>6</td>
@@ -213,15 +228,21 @@
                                             <td>Ḥa’</td>
                                             <td>Ḥ</td>
                                             <td>Ḥa- Ḥi- Ḥu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player6" src="audio/Fathah/fatah_ha.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player6').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>7</td>
                                             <td><p class ="arabic_center">خ</p></td>
                                             <td>Kha’</td>
                                             <td>KH</td>
-                                            <td>Kha-Khi-Khu</td>
-                                            <th><button>Play</button></th>
+                                            <td>Kho-Khi-Khu</td>
+                                            <th><audio id="player7" src="audio/Fathah/fatah_kho.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player7').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>8</td>
@@ -229,7 +250,10 @@
                                             <td>Dal</td>
                                             <td>D</td>
                                             <td>Da-Di-Du</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player8" src="audio/Fathah/fatah_da.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player8').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>9</td>
@@ -237,15 +261,21 @@
                                             <td>Dzal</td>
                                             <td>DZ</td>
                                             <td>Dza-Dzi-Dzu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player9" src="audio/Fathah/fatah_dza.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player9').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>10</td>
                                             <td><p class ="arabic_center">ر</p></td>
                                             <td>Ra’</td>
                                             <td>R</td>
-                                            <td>Ra-Ri-Ru</td>
-                                            <th><button>Play</button></th>
+                                            <td>Ro-Ri-Ru</td>
+                                            <th><audio id="player10" src="audio/Fathah/fatah_ro.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player10').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>11</td>
@@ -253,7 +283,10 @@
                                             <td>Za’</td>
                                             <td>Z</td>
                                             <td>Za-Zi-Zu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player11" src="audio/Fathah/fatah_za.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player11').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>12</td>
@@ -261,7 +294,10 @@
                                             <td>Sin</td>
                                             <td>S</td>
                                             <td>Sa-Si-Su</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player12" src="audio/Fathah/fatah_sa.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player12').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>13</td>
@@ -269,55 +305,76 @@
                                             <td>Syin</td>
                                             <td>SY</td>
                                             <td>Sya-Syi-Syu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player13" src="audio/Fathah/fatah_sya.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player13').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>14</td>
                                             <td><p class ="arabic_center">ص</p></td>
                                             <td>Shad</td>
                                             <td>SH</td>
-                                            <td>Sha-Shi-Shu</td>
-                                            <th><button>Play</button></th>
+                                            <td>Sho-Shi-Shu</td>
+                                            <th><audio id="player14" src="audio/Fathah/fatah_sho.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player14').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>15</td>
                                             <td><p class ="arabic_center">ض</p></td>
                                             <td>Dha’</td>
                                             <td>DH</td>
-                                            <td>Dha-Dhi-Dhu</td>
-                                            <th><button>Play</button></th>
+                                            <td>Dho-Dhi-Dhu</td>
+                                            <th><audio id="player15" src="audio/Fathah/fatah_dho.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player15').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>16</td>
                                             <td><p class ="arabic_center">ط</p></td>
                                             <td>Tha’</td>
                                             <td>TH</td>
-                                            <td>Tha-Thi-Thu</td>
-                                            <th><button>Play</button></th>
+                                            <td>Tho-Thi-Thu</td>
+                                            <th><audio id="player16" src="audio/Fathah/fatah_tho.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player16').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>17</td>
                                             <td><p class ="arabic_center">ظ</p></td>
                                             <td>Zha’</td>
                                             <td>ZH</td>
-                                            <td>Zha-Zhi-Zhu</td>
-                                            <th><button>Play</button></th>
+                                            <td>Dzo-Dzi-Dzu</td>
+                                            <th><audio id="player17" src="audio/Fathah/fatah_dzo.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player17').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>18</td>
                                             <td><p class ="arabic_center">ع</p></td>
                                             <td>‘Ain</td>
-                                            <td>‘ ‘ untuk (‘) tandapetik  dilanjutkan  dengan huruf vokal  a,  I, atau u jika huruftersebut  berharakat</td>
+                                            <td>-</td>
                                             <td>‘a-‘i-‘u</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player18" src="audio/Fathah/fatah_a.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player18').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>19</td>
                                             <td><p class ="arabic_center">غ</p></td>
                                             <td>Ghain</td>
                                             <td>GH</td>
-                                            <td>F</td>
-                                            <th><button>Play</button></th>
+                                            <td>Gho-Ghi-Ghu</td>
+                                            <th><audio id="player19" src="audio/Fathah/fatah_gho.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player19').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>20</td>
@@ -325,15 +382,21 @@
                                             <td>Fa’</td>
                                             <td>F</td>
                                             <td>Fa-Fi-Fu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player20" src="audio/Fathah/fatah_fa.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player20').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>21</td>
                                             <td><p class ="arabic_center">ق</p></td>
                                             <td>Qaf</td>
                                             <td>Q</td>
-                                            <td>Qa-Qi-Qu</td>
-                                            <th><button>Play</button></th>
+                                            <td>Qo-Qi-Qu</td>
+                                            <th><audio id="player21" src="audio/Fathah/fatah_qo.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player21').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>22</td>
@@ -341,7 +404,10 @@
                                             <td>Kaf</td>
                                             <td>K</td>
                                             <td>Ka-Ki-Ku</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player22" src="audio/Fathah/fatah_ka.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player22').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>23</td>
@@ -349,7 +415,10 @@
                                             <td>Lam</td>
                                             <td>L</td>
                                             <td>La-Li-Lu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player23" src="audio/Fathah/fatah_la.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player23').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>24</td>
@@ -357,7 +426,10 @@
                                             <td>Mim</td>
                                             <td>M</td>
                                             <td>Ma-Mi-Mu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player24" src="audio/Fathah/fatah_ma.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player24').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>25</td>
@@ -365,7 +437,10 @@
                                             <td>Nun</td>
                                             <td>N</td>
                                             <td>Na-Ni-Nu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player25" src="audio/Fathah/fatah_na.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player25').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>26</td>
@@ -373,7 +448,10 @@
                                             <td>Waw</td>
                                             <td>W</td>
                                             <td>Wa-Wi-Wu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player26" src="audio/Fathah/fatah_wa.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player26').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>27</td>
@@ -381,23 +459,32 @@
                                             <td>Ha’</td>
                                             <td>H</td>
                                             <td>Ha-Hi-Hu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player27" src="audio/Fathah/fatah_ha.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player27').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>28</td>
                                             <td><p class ="arabic_center">لا</p></td>
                                             <td>Lam Alif</td>
                                             <td>L</td>
-                                            <td>La (‘huruf dengan bunyi panjang’)</td>
-                                            <th><button>Play</button></th>
+                                            <td>La</td>
+                                            <th><audio id="player28" src="audio/Fathah/fatah_la.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player28').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>29</td>
                                             <td><p class ="arabic_center">ء</p></td>
                                             <td>Hamzah</td>
-                                            <td>A, I, U sesuai dengan harakat, setelahnya ditambahkan tanda petik (‘)</td>
+                                            <td>‘</td>
                                             <td>A-I-U</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player29" src="audio/Fathah/fatah_a.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player29').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                         <tr>
                                             <td>30</td>
@@ -405,7 +492,10 @@
                                             <td>Ya’</td>
                                             <td>Y</td>
                                             <td>Ya-Yi-Yu</td>
-                                            <th><button>Play</button></th>
+                                            <th><audio id="player30" src="audio/Fathah/fatah_ya.mp3"></audio>
+                                            <div>
+                                                <button onclick="document.getElementById('player30').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                </div></th>
                                         </tr>
                                     </tbody>    
                                 </table>
