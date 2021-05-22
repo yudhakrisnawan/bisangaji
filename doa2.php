@@ -1,4 +1,22 @@
 <!DOCTYPE html>
+
+<?php
+include "connection/koneksi.php";
+session_start();
+ob_start();
+
+$id = $_SESSION['id_user'];
+
+if(isset ($_SESSION['email'])){
+    $query = "select * from user natural join level_user where id_user = $id";
+
+    mysqli_query($conn, $query);
+    $sql = mysqli_query($conn, $query);
+    
+    while($r = mysqli_fetch_array($sql)){
+        $nama_user = $r['nama_user'];
+?>
+
 <html lang="en">
 
 <head>
@@ -19,7 +37,7 @@
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <img src="img/dashboard.png" width="30px" height="30px">
                 </div>
@@ -27,7 +45,7 @@
             </a>
             <hr class="sidebar-divider my-0">
             <li class="nav-item active">
-                <a class="nav-link" href="beranda.html">
+                <a class="nav-link" href="beranda.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Beranda</span>
                 </a>
@@ -36,13 +54,13 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNol"
                     aria-expanded="true" aria-controls="collapseNol">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Mengenal hijaiyah</span>
+                    <span>Mengenal Hijaiyah</span>
                 </a>
                 <div id="collapseNol" class="collapse" aria-labelledby="headingNol" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="hijaiyah1.html">Huruf hijaiyah</a>
-                        <a class="collapse-item" href="hijaiyah2.html">Cara membaca hijaiyah</a>
-                        <a class="collapse-item" href="hijaiyah3.html">Angka hijaiyah</a>
+                        <a class="collapse-item" href="hijaiyah1.php">Huruf hijaiyah</a>
+                        <a class="collapse-item" href="hijaiyah2.php">Cara membaca hijaiyah</a>
+                        <a class="collapse-item" href="hijaiyah3.php">Angka hijaiyah</a>
                     </div>
                 </div>
             </li>
@@ -54,9 +72,9 @@
                 </a>
                 <div id="collapseSatu" class="collapse" aria-labelledby="headingSatu" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="iqro1.html">Iqro 1</a>
-                        <a class="collapse-item" href="iqro2.html">Iqro 2</a>
-                        <a class="collapse-item" href="iqro3.html">Iqro 3</a>
+                        <a class="collapse-item" href="iqro1.php">Iqro 1</a>
+                        <a class="collapse-item" href="iqro2.php">Iqro 2</a>
+                        <a class="collapse-item" href="iqro3.php">Iqro 3</a>
                     </div>
                 </div>
             </li>
@@ -64,14 +82,14 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDua"
                     aria-expanded="true" aria-controls="collapseDua">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Doa sehari-hari</span>
+                    <span>Doa Sehari-hari</span>
                 </a>
                 <div id="collapseDua" class="collapse" aria-labelledby="headingDua"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="doa1.html">Doa makan</a>
-                        <a class="collapse-item" href="doa2.html">Doa tidur</a>
-                        <a class="collapse-item" href="doa3.html">Doa keluar/masuk masjid</a>
+                        <a class="collapse-item" href="doa1.php">Doa makan</a>
+                        <a class="collapse-item" href="doa2.php">Doa tidur</a>
+                        <a class="collapse-item" href="doa3.php">Doa keluar/masuk masjid</a>
                     </div>
                 </div>
             </li>
@@ -79,14 +97,14 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTiga"
                     aria-expanded="true" aria-controls="collapseTiga">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Surat-surat pendek</span>
+                    <span>Surat-surat Pendek</span>
                 </a>
                 <div id="collapseTiga" class="collapse" aria-labelledby="headingTiga"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="surat1.html">Al-Fatihah</a>
-                        <a class="collapse-item" href="surat2.html">Ad-Duha</a>
-                        <a class="collapse-item" href="surat3.html">Asy-Syams</a>
+                        <a class="collapse-item" href="surat1.php">Al-Fatihah</a>
+                        <a class="collapse-item" href="surat2.php">Ad-Duha</a>
+                        <a class="collapse-item" href="surat3.php">Asy-Syams</a>
                     </div>
                 </div>
             </li>
@@ -94,12 +112,12 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEmpat"
                     aria-expanded="true" aria-controls="collapseEmpat">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Video belajar mengaji</span>
+                    <span>Video Belajar Mengaji</span>
                 </a>
                 <div id="collapseEmpat" class="collapse" aria-labelledby="headingEmpat"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="video.html">Video belajar mengaji</a>
+                        <a class="collapse-item" href="video.php">Video belajar mengaji</a>
                     </div>
                 </div>
             </li>
@@ -121,7 +139,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">King Rijal</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $r['nama_user'];?></span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
@@ -129,12 +147,12 @@
                             <!-- Dropdown User -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="user_setting.html">
+                                <a class="dropdown-item" href="user_setting.php">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     User Settings
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="index.html" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -206,7 +224,7 @@
                 <div class="modal-body">Pilih "Keluar" jika ingin meninggalkan halaman.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                    <a class="btn btn-success" href="index.html">Keluar</a>
+                    <a class="btn btn-success" href="logout.php">Keluar</a>
                 </div>
             </div>
         </div>
@@ -219,3 +237,11 @@
     <script src="js/sb-admin-2.min.js"></script>
 </body>
 </html>
+
+<?php
+  }
+} else {
+  header('location: logout.php');
+}
+ob_flush();
+?>
