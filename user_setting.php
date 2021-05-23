@@ -76,6 +76,9 @@ if(isset ($_SESSION['email'])){
                         <a class="collapse-item" href="iqro1.php">Iqro 1</a>
                         <a class="collapse-item" href="iqro2.php">Iqro 2</a>
                         <a class="collapse-item" href="iqro3.php">Iqro 3</a>
+                        <a class="collapse-item" href="iqro4.php">Iqro 4</a>
+                        <a class="collapse-item" href="iqro5.php">Iqro 5</a>
+                        <a class="collapse-item" href="iqro6.php">Iqro 6</a>
                     </div>
                 </div>
             </li>
@@ -91,6 +94,13 @@ if(isset ($_SESSION['email'])){
                         <a class="collapse-item" href="doa1.php">Doa makan</a>
                         <a class="collapse-item" href="doa2.php">Doa tidur</a>
                         <a class="collapse-item" href="doa3.php">Doa keluar/masuk masjid</a>
+                        <a class="collapse-item" href="doa4.php">Doa keluar/masuk rumah</a>
+                        <a class="collapse-item" href="doa5.php">Doa naik kendaraan</a>
+                        <a class="collapse-item" href="doa6.php">Doa belajar</a>
+                        <a class="collapse-item" href="doa7.php">Doa membaca Al-Qur'an</a>
+                        <a class="collapse-item" href="doa8.php">Doa berwudhu</a>
+                        <a class="collapse-item" href="doa9.php">Doa saat sakit</a>
+                        <a class="collapse-item" href="doa10.php">Doa selamat dunia akhirat</a>
                     </div>
                 </div>
             </li>

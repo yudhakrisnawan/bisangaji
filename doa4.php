@@ -18,7 +18,6 @@ if(isset ($_SESSION['email'])){
 ?>
 
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,9 +36,12 @@ if(isset ($_SESSION['email'])){
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <?php
+            if($r['id_level'] == 2){
+        ?>
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <img src="img/dashboard.png" width="30px" height="30px">>
+                    <img src="img/dashboard.png" width="30px" height="30px">
                 </div>
                 <div class="sidebar-brand-text mx-3">Bisa Ngaji</div>
             </a>
@@ -127,13 +129,54 @@ if(isset ($_SESSION['email'])){
                 <div id="collapseEmpat" class="collapse" aria-labelledby="headingEmpat"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="video.php">Video belajar mengaji</a>
+                        <a class="collapse-item" href="video.php">Video Belajar Mengaji</a>
                     </div>
                 </div>
             </li>
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
+        <?php
+            } else if($r['id_level'] == 1){
+        ?>
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <img src="img/dashboard.png" width="30px" height="30px">
+                </div>
+                <div class="sidebar-brand-text mx-3">Bisa Ngaji</div>
+            </a>
+            <hr class="sidebar-divider my-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="beranda.php">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Beranda</span>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="manajemen_user.php">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Manajemen user</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSatu"
+                    aria-expanded="true" aria-controls="collapseSatu">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Manajemen Konten</span>
+                </a>
+                <div id="collapseSatu" class="collapse" aria-labelledby="headingSatu" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="video_admin.php">Video</a>
+                    </div>
+                </div>
+            </li>
+            <br>
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        <?php
+            }
+        ?>
         </ul>
         <!-- End of Sidebar -->
 
@@ -157,12 +200,12 @@ if(isset ($_SESSION['email'])){
                             <!-- Dropdown User -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="user_setting.php">
+                                <a class="dropdown-item" id="custom-dropdown" href="user_setting.php">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     User Settings
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" id="custom-dropdown" href="logout.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -182,23 +225,23 @@ if(isset ($_SESSION['email'])){
                         <div class="tab-content terms-tab-content fsize-m-2">
                             <div id="faq-collapse">
                                 <div class="judul">
-                                    <h4 align="center">Doa Masuk Masjid</h4>
+                                    <h4 align="center">Doa Masuk Rumah</h4>
                                     <br>
                                 </div>
-                                <div class="kad">  
-                                    <p class ="arabic_center">أَعُوْذُ بِاللهِ الْعَظِيْمِ وَبِوَجْهِهِ الْكَرِيْمِ وَسُلْطَانِهِ الْقَدِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ. بِسْمِ اللهِ وَالْحَمْدُ لِلهِ. أَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ. اَللَّهُمَّ اغْفِرْ لِي ذُنُوْبِي وَافْتَحْ لِي أَبْوَابَ رَحْمَتِكَ</p> <br>                        
-                                    <center><p class ="latin">"A’uudzu billaahil ‘azhiim wa biwajhihil kariim wa sulthaanihil qadiim minas syaithaanir rajiim. Bismillaahi wal hamdulillaah. Allaahumma shalli wa sallim ‘alaa sayyidinaa muhammadin wa ‘alaa aali sayyidinaa muhammadin. Allaahummaghfirlii dzunuubii waftahlii abwaaba rahmatik."<br><br>
-                                        "Aku berlindung kepada Allah Yang Maha Besar, Dzat-Nya Yang Maha Mulia, dan kepada kerajaan-Nya Yang Sedia dari setan yang terkutuk. Dengan nama Allah dan segala puji bagi Allah. Ya Tuhanku, berilah shalawat dan sejahtera atas Sayyidina Nabi Muhammad dan atas keluarga Sayyidina Nabi Muhammad. Ya Tuhanku, ampuni untukku segala dosaku. Bukalah bagiku beberapa pintu rahmat-Mu,"</p></center>
+                                <div class="kad">
+                                    <p class ="arabic_center">اللّهُمَّ اِنِّىْ اَسْأَلُكَ خَيْرَالْمَوْلِجِ وَخَيْرالْمَخْرَجِ بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبَّنَا تَوَكَّلْنَا</p>                        
+                                    <center><p class ="latin">"Allohumma innii asaluka khoirol mauliji wa khoirol makhroji bismillahi walajnaa wabismillahi khorojnaa wa’alallohi Robbanaa tawakalna."<br>
+                                    Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut nama Allah kami masuk dan dengan menyebut nama Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakal.</p></center>
                                     <br><br><br><br>
 
                                     <div class="judul">
-                                        <h4 align="center">Doa Keluar Masjid</h4>
+                                        <h4 align="center">Doa Keluar Rumah</h4>
                                         <br>
                                     </div>
                                     <div class="kad">
-                                        <p class ="arabic_center">أعُوْذُ بِاللهِ العَظِيْمِ وَبِوَجْهِهِ الْكَرِيْمِ وَسُلْطَانِهِ الْقَدِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ. بِسْمِ اللهِ وَالْحَمْدُ لِلهِ. أَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ. اَللَّهُمَّ اغْفِرْ لِي ذُنُوْبِي وَافْتَحْ لِي أَبْوَابَ فَضْلِكَ</p> <br>                      
-                                        <center><p class ="latin">"A’uudzu billaahil ‘azhiim wa biwajhihil kariim wa sulthaanihil qadiim minas syaithaanir rajiim. Bismillaahi wal hamdulillaah. Allaahumma shalli wa sallim ‘alaa sayyidinaa muhammadin wa ‘alaa aali sayyidinaa muhammadin. Allâhummaghfirlii dzunuubii waftahlii abwaaba fadhlik."<br><br>
-                                            "Aku berlindung kepada Allah Yang Maha Besar, kepada Dzat-Nya Yang Maha Mulia, dan kepada kerajaan-Nya Yang Sedia dari setan yang terlontar. Dengan nama Allah dan segala puji bagi Allah. Hai Tuhanku, berilah shalawat dan sejahtera atas Sayyidina Muhammad dan atas keluarga Sayyidina Muhammad. Hai Tuhanku, ampuni untukku segala dosaku. Bukakan lah bagiku segala pintu kemurahan-Mu."</p></center> 
+                                        <p class ="arabic_center">بِسْمِ اللهِ تَوَكَّلْتُ عَلىَ اللهِ لاَحَوْلَ وَلاَ قُوَّةَ اِلاَّ بِااللهِ</p>                        
+                                        <center><p class ="latin">“Bismillahi tawakaltu ‘alallohi laahaulaa walaaquwwata illabillah.”<br>
+                                            “Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan Allah.”</p></center> 
                                     </div>
                                     <br><br><br>       
                                 </div>
@@ -247,7 +290,6 @@ if(isset ($_SESSION['email'])){
     <script src="js/sb-admin-2.min.js"></script>
 </body>
 </html>
-
 <?php
   }
 } else {
