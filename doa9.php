@@ -216,7 +216,30 @@ if(isset ($_SESSION['email'])){
                 <!-- End of Topbar -->
 
             <!-- Content -->
-
+            <div class="container-fluid">
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
+                </div>
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="container">
+                        <div class="tab-content terms-tab-content fsize-m-2">
+                            <div id="faq-collapse">
+                                <div class="judul">
+                                    <h4 align="center">Doa Saat Sakit</h4>
+                                    <br>
+                                </div>
+                                <div class="kad">
+                                    <p class ="arabic_center">اَللّهُمَّ رَبَّ النَّاسِ اذْهِبِ الْبَأْ سَ٬ اَشْفِ أَنْتَ اشَّافِي، لاَ شِفَاءَ إِلاَّ شِفَاؤُكَ لاَيُغَادِرُ سَقَمًا
+                                    </p>                        
+                                    <center><p class ="latin">"Allohumma robbannaasi adzhibil baksa isyfi Antassyaafii laa syifaa illa syifaauka la yughodiru sakoman"<br>
+                                    “Ya Allah, jika ajalku telah datang dalam sakitku ini, maka senangkanlah aku, jika masih jauh hilangkanlah penyakitku, dan jika sebagai cobaan, maka berikanlah kesabaran padaku.”</p></center>
+                                    <br><br><br><br><br><br><br><br><br><br><br><br>     
+                                </div>
+                            <div>        
+                        </div>   
+                    </div>
+                </section>
+            </div>
             <!-- End of Content -->
 
             <!-- Footer -->

@@ -216,7 +216,40 @@ if(isset ($_SESSION['email'])){
                 <!-- End of Topbar -->
 
             <!-- Content -->
+            <div class="container-fluid">
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
+                </div>
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="container">
+                        <div class="tab-content terms-tab-content fsize-m-2">
+                            <div id="faq-collapse">
+                                <div class="judul">
+                                    <h4 align="center">Doa Sebelum Belajar</h4>
+                                    <br>
+                                </div>
+                                <div class="kad">
+                                    <p class ="arabic_center">رَبِّ زِدْنِي عِلْمًا وَرْزُقْنِيْ فَهْمًا وَاجْعَلْنِيْ مِنَ الصَّالِحِيْنَ</p>                        
+                                    <center><p class ="latin">"Robbi zidni ‘ilmaa warzuqnii fahmaa waj’alnii minasshoolihiin"<br>
+                                    “Ya Allah tambahkanlah aku ilmu, Dan berilah aku karunia untuk dapat memahaminya, dan jadikanlah aku termasuk golongannya orang-orang yang sholih. Ya Allah kabulkanlah doaku ini.”</p></center>
+                                    <br><br><br><br>
 
+                                    <div class="judul">
+                                        <h4 align="center">Doa Sesudah Belajar</h4>
+                                        <br>
+                                    </div>
+                                    <div class="kad">
+                                        <p class ="arabic_center">اللّهُمَّ أَرِنَآلْحَقَّ حَقًّا وَارْزُقْنَا اتِّبَاعَه وَأَرِنَآالْبَاطِلَ بَاطِلًا وَارْزُقْنَا اجْتِنَابَهُ</p>                        
+                                        <center><p class ="latin">“Allohumma arinalhaqqo haqqo warzuqnattibaa’ah wa arinal baathila baathila warzuqnattibaa’ah.”<br>
+                                        “Ya Allah, tunjukkanlah kepada kami kebenaran sehingga kami dapat mengikutinya. Dan tunjukkanlah kepada kami kejelekan sehingga kami dapat menjauhinya.”</p></center> 
+                                    </div>
+                                    <br><br><br>       
+                                </div>
+                            <div>        
+                        </div>   
+                    </div>
+                </section>
+            </div>
             <!-- End of Content -->
 
             <!-- Footer -->

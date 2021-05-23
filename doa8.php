@@ -216,7 +216,43 @@ if(isset ($_SESSION['email'])){
                 <!-- End of Topbar -->
 
             <!-- Content -->
+            <div class="container-fluid">
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
+                </div>
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="container">
+                        <div class="tab-content terms-tab-content fsize-m-2">
+                            <div id="faq-collapse">
+                                <div class="judul">
+                                    <h4 align="center">Niat Berwudhu</h4>
+                                    <br>
+                                </div>
+                                <div class="kad">
+                                    <p class ="arabic_center">نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْأَصْغَرِ فَرْضًا لِلَّهِ تَعَا لَي</p>                        
+                                    <center><p class ="latin">"Nawaitul wudhuua lirof’il hadatsil asghori fardholillahi ta’ala"<br>
+                                    “Saya niat berwudhu untuk menghilangkan hadats kecil karena Allah Ta’ala.”</p></center>
+                                    <br><br><br><br>
 
+                                    <div class="judul">
+                                        <h4 align="center">Doa Sesudah Berwudhu</h4>
+                                        <br>
+                                    </div>
+                                    <div class="kad">
+                                        <p class ="arabic_center">اشْهَدُ اَنْ لاَ اِلهَ الاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ وَاَشْهَدُ أَنَّ مُحَمَّدً عَبْدُهُ وَرَسُوْلُهُ٬                                       
+                                        اَللّهُمَّ اجْعَلْنِىْ  مِنَ التَّوَّبِيْنَ وَاجْعَلْنِىْ مِنَ الْمُتَطَهِّرِيْنَ، وَاجْعَلْنِىْ مِنْ عِبَادِكَ الصَّالِحِيْنَ</p>                        
+                                        <center><p class ="latin">“Asyhadu alla ilaaha illalloh wahdahulasyarikalahu waasyhadu anna Muhammadan ‘abduhu warosuuluh
+                                        Allohummaj’alni minattawwabii waj’alni minalmutatohhirina, waj’alni min ‘ibaadikasshoolhiin.”<br>
+                                        “Aku bersaksi tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku mengakui bahwa Nabi Muhammad itu adalah hamba dan utusan Allah.
+                                        ya Allah, jadikanlah aku dari golongan orang-orang yang bertaubat dan dan jadikanlah aku orang-orang yang suci, dan jadikanlah aku dari golongan orang-orang sholeh.”</p></center> 
+                                    </div>
+                                    <br><br><br>       
+                                </div>
+                            <div>        
+                        </div>   
+                    </div>
+                </section>
+            </div>
             <!-- End of Content -->
 
             <!-- Footer -->

@@ -216,7 +216,49 @@ if(isset ($_SESSION['email'])){
                 <!-- End of Topbar -->
 
             <!-- Content -->
+            <div class="container-fluid">
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
+                </div>
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="container">
+                        <div class="tab-content terms-tab-content fsize-m-2">
+                            <div id="faq-collapse">
+                                <div class="judul">
+                                    <h4 align="center">Doa Sebelum Membaca Al-Qur'an</h4>
+                                    <br>
+                                </div>
+                                <div class="kad">
+                                    <p class ="arabic_center">اللّهُمَّ فْتَحْ عَلَيَّ حِكْمَتَكَ وَانْشُرْعَلَيَّ رَحْمَتَكَ وَذَكِّرْنِيْ مَا نَسِيْتُ يَاذَا الْجَلَالِ وَالْاِكْرَامِ<p>                        
+                                    <center><p class ="latin">"Allohummaftah ‘alayya hikmataka wansyur ‘alayya rohmataka wadzakkirnii maa nasaytu yaa dzal jalali wal iqrom ." <br>
+                                    
+                                    “Ya Allah bukakanlah hikmah-Mu kepadaku, bentangkanlah rahmat-Mu padaku dan ingatkanlah aku terhadap apa yang aku lupakan, wahai Dzat yang memiliki keagungan dan kemurahan”</p></center>
+                                    <br><br><br><br>
 
+                                    <div class="judul">
+                                        <h4 align="center">Doa Setelah Membaca Al-Qur'an</h4>
+                                        <br>
+                                    </div>
+                                    <div class="kad">
+                                        <p class ="arabic_center">اللّهُمَّ ارْحَمْنِى، بِالْقُرْآنِ وَجْعَلْهُ لِىْ اِمَامًا وَنُوْرًا وَهُدًا وَرَحْمَةً،                                        
+                                        اللّهُمَّ ذَكِّرْنِيْ مِنْهُ مَا نَسِيْتُ، وَعَلِّمْنِىْ مِنْهُ مَا جَهِلْتُ،
+                                        وَارْزُقْنِىْ تِلَا وَتَهُ آنآءَاللَّيْلِ وَاَطْرَافَاَلنَّهارٍ،
+                                        وَجْعَلْهُ لِىْ حُجَّةً يَارَبَّ الْعَالَمِيْنَ</p>                        
+                                        <center><p class ="latin">"Allohummarhamnii bilqur’an waj’alhulii imaamaawwanuuron wahudan warohmah
+                                        Allohumma dzakkirna minhumaa nasiitu wa’allimnii minhumaa jahiltu
+                                        warzuqnii tilaa watahu aanaa allaili waathro fannahaar
+                                        Waj’alhulii hujjatan yaa Robbal ‘aalamiin."<br>
+
+                                        "Ya Allah, rohmatilah aku dengan Al-Qur’an yang agung, jadikanlah ia bagiku cahaya petunjuk rahmat. Ya Allah, ingatkanlah apa yang telah aku lupa ajarkan kepadaku apa yang tidak aku ketahui darinya, anugerahkanlah kepadaku kesempatan membacanya pada sebagian malam dan siang, jadikanlah ia hujjah yang kuat bagiku, wahai Tuhan seru sekalian alam" </p></center>
+                                    </div> 
+                                        <br><br><br><br>
+                                    </div>        
+                                </div>
+                            <div>        
+                        </div>   
+                    </div>
+                </section>
+            </div>
             <!-- End of Content -->
 
             <!-- Footer -->
