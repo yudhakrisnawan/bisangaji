@@ -216,7 +216,17 @@ if(isset ($_SESSION['email'])){
                 <!-- End of Topbar -->
 
             <!-- Content -->
-
+            <div class="container-fluid">
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-0 text-gray-800">Iqro</h1>
+                </div>
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="container">
+                        <div class="tab-content terms-tab-content fsize-m-2">
+                            <div class="judul">
+                                <h4 align="center">Iqro 5</h4>
+                                <br>
+                            </div>
             <!-- End of Content -->
 
             <!-- Footer -->
