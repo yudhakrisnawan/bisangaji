@@ -142,7 +142,7 @@ if(isset ($_SESSION['email'])){
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label"></label>
                                         <div class="col-sm-9">
-                                            <button type="submit" name="upload_video" class="btn btn-success mb-5">Tambahkan</button>
+                                            <button type="submit" name="upload_video" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">Tambahkan</button>
                                         </div>
                                     </div>
                                 </form>
@@ -197,8 +197,8 @@ if(isset ($_SESSION['email'])){
                 </div>
                 <div class="modal-body">Pilih "Keluar" jika ingin meninggalkan halaman.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                    <a class="btn btn-success" href="logout.php">Keluar</a>
+                    <button class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" type="button" data-dismiss="modal">Batal</button>
+                    <a class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm" href="logout.php">Keluar</a>
                 </div>
             </div>
         </div>

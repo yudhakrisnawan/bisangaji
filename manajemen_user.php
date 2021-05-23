@@ -113,11 +113,8 @@ if(isset ($_SESSION['email'])){
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 class="h3 mb-0 text-gray-800">Manajemen User</h1>
+                    <a href="tambah_user.php" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">Tambah User Baru</a>
                 </div>
-                <div align="right">
-                    <a class="btn btn-success" href="tambah_user.php">Tambah User Baru</a>
-                </div>
-                <br>
                 <section class="mar-top--x-3 mar-bottom--x-5">
                     <div class="card shadow mb-4">
                         <div class="card-body">
@@ -159,8 +156,8 @@ if(isset ($_SESSION['email'])){
                                         <td><?php echo $r_dt_user['nama_user']; ?></td>
                                         <td><?php echo $r_dt_user['email']; ?></td>
                                         <td>
-                                            <button class="btn btn-warning"data-toggle="modal" data-target="#editModal<?php echo $r_dt_user['id_user']; ?>">Edit</button>
-                                            <button class="btn btn-danger" data-toggle="modal" data-target="#hapusModal<?php echo $r_dt_user['id_user']; ?>">Hapus</button>
+                                            <button class="d-none d-sm-inline-block btn btn-sm btn-warning shadow-sm"data-toggle="modal" data-target="#editModal<?php echo $r_dt_user['id_user']; ?>">Edit</button>
+                                            <button class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm" data-toggle="modal" data-target="#hapusModal<?php echo $r_dt_user['id_user']; ?>">Hapus</button>
                                         </td>
                                         </tr>
                                         <div class="modal fade" id="editModal<?php echo $r_dt_user['id_user']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -195,8 +192,8 @@ if(isset ($_SESSION['email'])){
                                                             </div>
                                                         </div>
                                                         <div class="modal-footer">
-                                                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                                                            <button name="update" value="<?php echo $r_dt_user['id_user'];?>" class="btn btn-success">Simpan Perubahan</button>
+                                                            <button class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" type="button" data-dismiss="modal">Batal</button>
+                                                            <button name="update" value="<?php echo $r_dt_user['id_user'];?>" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">Simpan Perubahan</button>
                                                         </div>
                                                     </form>
                                                     <?php
@@ -216,9 +213,9 @@ if(isset ($_SESSION['email'])){
                                                     </div>
                                                     <div class="modal-body">Pilih "Hapus" jika ingin menghapus user.</div>
                                                     <div class="modal-footer">
-                                                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
                                                         <form action="" method="post">
-                                                            <button name="hapus_user" value="<?php echo $r_dt_user['id_user']; ?>" class="btn btn-danger">Hapus</button>
+                                                            <button class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" type="button" data-dismiss="modal">Batal</button>
+                                                            <button name="hapus_user" value="<?php echo $r_dt_user['id_user']; ?>" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Hapus</button>
                                                         </form> 
                                                     </div>
                                                     <?php
@@ -270,8 +267,8 @@ if(isset ($_SESSION['email'])){
                 </div>
                 <div class="modal-body">Pilih "Keluar" jika ingin meninggalkan halaman.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                    <a class="btn btn-success" href="logout.php">Keluar</a>
+                    <button class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" type="button" data-dismiss="modal">Batal</button>
+                    <a class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm" href="logout.php">Keluar</a>
                 </div>
             </div>
         </div>

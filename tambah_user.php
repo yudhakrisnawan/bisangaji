@@ -127,25 +127,25 @@ if(isset ($_SESSION['email'])){
                                     <div class="form-group row">
                                         <label for="Nama Lengkap" class="col-sm-2 col-form-label">Nama Lengkap</label>
                                         <div class="col-sm-10">
-                                            <input type="text" name="nama_user" class="form-control" placeholder="Nama Lengkap" placeholder="Masukkan Nama Lengkap" required>
+                                            <input type="text" name="nama_user" class="form-control" placeholder="Masukkan Nama Lengkap" required>
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <label for="Email" class="col-sm-2 col-form-label">Email</label>
                                         <div class="col-sm-10">
-                                            <input type="email" name="email" class="form-control" placeholder="Nama Lengkap" placeholder="Masukkan Email" required>
+                                            <input type="email" name="email" class="form-control"  placeholder="Masukkan Email" required>
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <label for="Password" class="col-sm-2 col-form-label">Password</label>
                                         <div class="col-sm-10">
-                                            <input type="password" name="password" class="form-control" placeholder="Password" placeholder="Masukkan Password" required>
+                                            <input type="password" name="password" class="form-control" placeholder="Masukkan Password" required>
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label"></label>
                                         <div class="col-sm-10">
-                                            <button type="submit" name="kirim_daftar" class="btn btn-success mb-5">Tambahkan User</button>
+                                            <button type="submit" name="kirim_daftar" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">Tambahkan User</button>
                                         </div>
                                     </div>
                                 </form>
@@ -213,8 +213,8 @@ if(isset ($_SESSION['email'])){
                 </div>
                 <div class="modal-body">Pilih "Keluar" jika ingin meninggalkan halaman.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                    <a class="btn btn-success" href="logout.php">Keluar</a>
+                    <button class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" type="button" data-dismiss="modal">Batal</button>
+                    <a class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm" href="logout.php">Keluar</a>
                 </div>
             </div>
         </div>

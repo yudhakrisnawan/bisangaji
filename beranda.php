@@ -155,7 +155,7 @@ if(isset ($_SESSION['email'])){
             <li class="nav-item active">
                 <a class="nav-link" href="manajemen_user.php">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen user</span>
+                    <span>Manajemen User</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -277,8 +277,8 @@ if(isset ($_SESSION['email'])){
                 </div>
                 <div class="modal-body">Pilih "Keluar" jika ingin meninggalkan halaman.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                    <a class="btn btn-success" href="logout.php">Keluar</a>
+                    <button class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" type="button" data-dismiss="modal">Batal</button>
+                    <a class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm" href="logout.php">Keluar</a>
                 </div>
             </div>
         </div>

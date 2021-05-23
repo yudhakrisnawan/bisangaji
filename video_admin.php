@@ -220,11 +220,8 @@ if(isset ($_SESSION['email'])){
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 class="h3 mb-0 text-gray-800">Video Belajar Mengaji</h1>
+                    <a class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm" href="tambah_video.php">Tambah Video Baru</a>
                 </div>
-                <div align="right">
-                    <a class="btn btn-success" href="tambah_video.php">Tambah Video Baru</a>
-                </div>
-                <br>
                 <section class="mar-top--x-3 mar-bottom--x-5">
                     <div class="row">
                         <?php
@@ -275,8 +272,8 @@ if(isset ($_SESSION['email'])){
                                     <div class="card-body">
                                         <video src="<?php echo 'video/' . $row['nama_video'];?>" width="100%" controls></video>
                                         <div align="right">
-                                            <button class="btn btn-warning" data-toggle="modal" data-target="#editJudul<?php echo $row['id_video']; ?>">Edit Judul</button>
-                                            <button class="btn btn-danger" data-toggle="modal" data-target="#hapusVideo<?php echo $row['id_video']; ?>">Hapus Video</button>
+                                            <button class="d-none d-sm-inline-block btn btn-sm btn-warning shadow-sm" data-toggle="modal" data-target="#editJudul<?php echo $row['id_video']; ?>">Edit Judul</button>
+                                            <button class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm" data-toggle="modal" data-target="#hapusVideo<?php echo $row['id_video']; ?>">Hapus Video</button>
                                         </div>
                                     </div>
                                 </div>
@@ -293,9 +290,9 @@ if(isset ($_SESSION['email'])){
                                         </div>
                                         <div class="modal-body">Pilih "Hapus" jika ingin menghapus video.</div>
                                         <div class="modal-footer">
-                                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+                                            <button class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" type="button" data-dismiss="modal">Batal</button>
                                             <form action="" method="post">
-                                                <button name="hapus_video" value="<?php echo $row['id_video']; ?>" class="btn btn-danger">Hapus</button>
+                                                <button name="hapus_video" value="<?php echo $row['id_video']; ?>" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Hapus</button>
                                             </form> 
                                         </div>
                                     </div>
@@ -327,8 +324,8 @@ if(isset ($_SESSION['email'])){
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
-                                                <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                                                <button name="update" value="<?php echo $row['id_video'];?>" class="btn btn-success">Simpan Perubahan</button>
+                                                <button class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" type="button" data-dismiss="modal">Batal</button>
+                                                <button name="update" value="<?php echo $row['id_video'];?>" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">Simpan Perubahan</button>
                                             </div>
                                         </form>
                                     </div>
@@ -364,8 +361,8 @@ if(isset ($_SESSION['email'])){
                 </div>
                 <div class="modal-body">Pilih "Keluar" jika ingin meninggalkan halaman.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                    <a class="btn btn-success" href="logout.php">Keluar</a>
+                    <button class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" type="button" data-dismiss="modal">Batal</button>
+                    <a class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm" href="logout.php">Keluar</a>
                 </div>
             </div>
         </div>
