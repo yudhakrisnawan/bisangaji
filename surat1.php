@@ -178,45 +178,50 @@ if(isset ($_SESSION['email'])){
                     <h1 class="h3 mb-0 text-gray-800">Surat-surat pendek</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
-                                <div class="judul">
-                                    <h4 align="center">Al-Fatihah</h4>
-                                    <br>
-                                </div>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <h4 align="center">Al-Fatihah</h4>
+                                <br>
                                 <div class="kad">
-                                    <p class ="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ﴿<span class="arabic_number">١</span>﴾</p>                        
+                                    <p class ="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ﴿<span class="arabic_number">١</span>﴾</p>
+                                    <p class ="latin" align="right">Bismillaahir Rahmaanir Rahiim</p>                       
                                     <p class ="latin">[1] Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang.</p>                    
                                 </div>
-                                <br>
+                                <hr>
                                 <div class="kad">
-                                    <p class ="arabic">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿<span class="arabic_number">٢</span>﴾</p>                        
+                                    <p class ="arabic">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿<span class="arabic_number">٢</span>﴾</p>
+                                    <p class ="latin" align="right">Alhamdu lillaahi Rabbil 'aalamiin</p>                        
                                     <p class ="latin">[2] Segala puji bagi Allah, Tuhan semesta alam.</p>                    
                                 </div>
-                                <br>
+                                <hr>
                                 <div class="kad">
-                                    <p class ="arabic">الرَّحْمَٰنِ الرَّحِيمِ ﴿<span class="arabic_number">٣</span>﴾</p>                       
+                                    <p class ="arabic">الرَّحْمَٰنِ الرَّحِيمِ ﴿<span class="arabic_number">٣</span>﴾</p> 
+                                    <p class ="latin" align="right">Ar-Rahmaanir-Rahiim</p>                      
                                     <p class ="latin">[3] Maha Pemurah lagi Maha Penyayang.</p>                    
                                 </div>
-                                <br>
+                                <hr>
                                 <div class="kad">
-                                    <p class ="arabic">مَالِكِ يَوْمِ الدِّينِ ﴿<span class="arabic_number">٤</span>﴾</p>                        
+                                    <p class ="arabic">مَالِكِ يَوْمِ الدِّينِ ﴿<span class="arabic_number">٤</span>﴾</p> 
+                                    <p class ="latin" align="right">Maaliki Yawmid-Diin</p>                       
                                     <p class ="latin">[4] Yang menguasai di Hari Pembalasan.</p>                    
                                 </div>
-                                <br>
+                                <hr>
                                 <div class="kad">
-                                    <p class ="arabic">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿<span class="arabic_number">٥</span>﴾</p>                        
+                                    <p class ="arabic">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿<span class="arabic_number">٥</span>﴾</p>
+                                    <p class ="latin" align="right">Iyyaaka na'budu wa lyyaaka nasta'iin</p>                       
                                     <p class ="latin">[5] Hanya Engkaulah yang kami sembah, dan hanya kepada Engkaulah kami meminta pertolongan.</p>                    
                                 </div>
-                                <br>
+                                <hr>
                                 <div class="kad">
-                                    <p class ="arabic">اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿<span class="arabic_number">٦</span>﴾</p>                        
+                                    <p class ="arabic">اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿<span class="arabic_number">٦</span>﴾</p> 
+                                    <p class ="latin" align="right">Ihdinas-Siraatal-Mustaqiim</p>                       
                                     <p class ="latin">[6] Tunjukilah kami jalan yang lurus,</p>                    
                                 </div>
-                                <br>
+                                <hr>
                                 <div class="kad">
-                                    <p class ="arabic">صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿<span class="arabic_number">٧</span>﴾</p>                        
+                                    <p class ="arabic">صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿<span class="arabic_number">٧</span>﴾</p>   
+                                    <p class ="latin" align="right">Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin</p>                     
                                     <p class ="latin">[7] (yaitu) Jalan orang-orang yang telah Engkau beri nikmat kepada mereka; bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) mereka yang sesat.</p>                    </div>
                                 </div>
                             </div>

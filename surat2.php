@@ -178,68 +178,78 @@ if(isset ($_SESSION['email'])){
                     <h1 class="h3 mb-0 text-gray-800">Surat-surat pendek</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
                                 <div class="kad">
-                                    <div class="kad">
-                                        <h4 align="center">Ad-Duha</h4>
-                                        <p class ="arabic_center">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>                    
-                                    </div>
-                                    <div class="kad">
-                                        <p class ="arabic">وَالضُّحَىٰ ﴿<span class="arabic_number">١</span>﴾</p>                        
-                                        <p class ="latin">[1] Demi waktu matahari sepenggalahan naik,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">وَاللَّيْلِ إِذَا سَجَىٰ ﴿<span class="arabic_number">٢</span>﴾</p>                        
-                                        <p class ="latin">[2] dan demi malam apabila telah sunyi (gelap),</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ ﴿<span class="arabic_number">٣</span>﴾</p>                        
-                                        <p class ="latin">[3] Tuhanmu tiada meninggalkan kamu dan tiada (pula) benci kepadamu.</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">وَلَلْآخِرَةُ خَيْرٌ لَكَ مِنَ الْأُولَىٰ ﴿<span class="arabic_number">٤</span>﴾</p>                        
-                                        <p class ="latin">[4] Dan sesungguhnya hari kemudian itu lebih baik bagimu daripada yang sekarang (permulaan).</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ ﴿<span class="arabic_number">٥</span>﴾</p>                        
-                                        <p class ="latin">[5] Dan kelak Tuhanmu pasti memberikan karunia-Nya kepadamu , lalu (hati) kamu menjadi puas.</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">أَلَمْ يَجِدْكَ يَتِيمًا فَآوَىٰ ﴿<span class="arabic_number">٦</span>﴾</p>                        
-                                        <p class ="latin">[6] Bukankah Dia mendapatimu sebagai seorang yatim, lalu Dia melindungimu?</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">وَوَجَدَكَ ضَالًّا فَهَدَىٰ ﴿<span class="arabic_number">٧</span>﴾</p>                        
-                                        <p class ="latin">[7] Dan Dia mendapatimu sebagai seorang yang bingung, lalu Dia memberikan petunjuk.</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ ﴿<span class="arabic_number">٨</span>﴾</p>                        
-                                        <p class ="latin">[8] Dan Dia mendapatimu sebagai seorang yang kekurangan, lalu Dia memberikan kecukupan.</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ ﴿<span class="arabic_number">٩</span>﴾</p>                        
-                                        <p class ="latin">[9] Sebab itu, terhadap anak yatim janganlah kamu berlaku sewenang-wenang.</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ ﴿<span class="arabic_number">١٠</span>﴾</p>                        
-                                        <p class ="latin">[10] Dan terhadap orang yang minta-minta, janganlah kamu menghardiknya.</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad">
-                                        <p class ="arabic">وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ ﴿<span class="arabic_number">١١</span>﴾</p>                        
-                                        <p class ="latin">[11] Dan terhadap nikmat Tuhanmu, maka hendaklah kamu siarkan.</p>                    
-                                    </div>
+                                    <h4 align="center">Ad-Duha</h4>
+                                    <p class ="arabic_center">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>                   
+                                </div>
+                                <br>
+                                <div class="kad">
+                                    <p class ="arabic">وَالضُّحَىٰ ﴿<span class="arabic_number">١</span>﴾</p> 
+                                    <p class ="latin" align="right">Wad duhaa</p>                       
+                                    <p class ="latin">[1] Demi waktu matahari sepenggalahan naik,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">وَاللَّيْلِ إِذَا سَجَىٰ ﴿<span class="arabic_number">٢</span>﴾</p> 
+                                    <p class ="latin" align="right">Wal laili iza sajaa</p>                        
+                                    <p class ="latin">[2] dan demi malam apabila telah sunyi (gelap),</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ ﴿<span class="arabic_number">٣</span>﴾</p> 
+                                    <p class ="latin" align="right">Ma wad da'aka rabbuka wa ma qalaa</p>                        
+                                    <p class ="latin">[3] Tuhanmu tiada meninggalkan kamu dan tiada (pula) benci kepadamu.</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">وَلَلْآخِرَةُ خَيْرٌ لَكَ مِنَ الْأُولَىٰ ﴿<span class="arabic_number">٤</span>﴾</p>  
+                                    <p class ="latin" align="right">Walal-aakhiratu khairul laka minal-uula</p>                       
+                                    <p class ="latin">[4] Dan sesungguhnya hari kemudian itu lebih baik bagimu daripada yang sekarang (permulaan).</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ ﴿<span class="arabic_number">٥</span>﴾</p>  
+                                    <p class ="latin" align="right">Wa la sawfa y'utiika rabbuka fatarda</p>                       
+                                    <p class ="latin">[5] Dan kelak Tuhanmu pasti memberikan karunia-Nya kepadamu , lalu (hati) kamu menjadi puas.</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">أَلَمْ يَجِدْكَ يَتِيمًا فَآوَىٰ ﴿<span class="arabic_number">٦</span>﴾</p>
+                                    <p class ="latin" align="right">Alam ya jidka yatiiman fa aawaa</p>                         
+                                    <p class ="latin">[6] Bukankah Dia mendapatimu sebagai seorang yatim, lalu Dia melindungimu?</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">وَوَجَدَكَ ضَالًّا فَهَدَىٰ ﴿<span class="arabic_number">٧</span>﴾</p>   
+                                    <p class ="latin" align="right">Wa wa jadaka daal lan fahada</p>                      
+                                    <p class ="latin">[7] Dan Dia mendapatimu sebagai seorang yang bingung, lalu Dia memberikan petunjuk.</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ ﴿<span class="arabic_number">٨</span>﴾</p> 
+                                    <p class ="latin" align="right">Wa wa jadaka 'aa-ilan fa aghnaa</p>                        
+                                    <p class ="latin">[8] Dan Dia mendapatimu sebagai seorang yang kekurangan, lalu Dia memberikan kecukupan.</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ ﴿<span class="arabic_number">٩</span>﴾</p> 
+                                    <p class ="latin" align="right">Fa am mal yatiima fala taqhar</p>                        
+                                    <p class ="latin">[9] Sebab itu, terhadap anak yatim janganlah kamu berlaku sewenang-wenang.</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ ﴿<span class="arabic_number">١٠</span>﴾</p>  
+                                    <p class ="latin" align="right">Wa am mas saa-ila fala tanhar</p>                       
+                                    <p class ="latin">[10] Dan terhadap orang yang minta-minta, janganlah kamu menghardiknya.</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad">
+                                    <p class ="arabic">وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ ﴿<span class="arabic_number">١١</span>﴾</p>
+                                    <p class ="latin" align="right">Wa amma bi ni'mati rabbika fahad dith</p>                         
+                                    <p class ="latin">[11] Dan terhadap nikmat Tuhanmu, maka hendaklah kamu siarkan.</p>                    
                                 </div>
                             </div>
                         </div>   

@@ -179,88 +179,102 @@ if(isset ($_SESSION['email'])){
                     <h1 class="h3 mb-0 text-gray-800">Surat-surat pendek</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
                                 <div class="kad">
-                                    <div class="kad">
-                                        <h4 class="judul" align="center">Asy-Syams</h4>
-                                        <p class ="arabic_center">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>                    
-                                    </div>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">وَالشَّمْسِ وَضُحَاهَا ﴿<span class="arabic_number">١</span>﴾</p>                        
-                                        <p class ="latin">[1] Demi matahari dan cahayanya di pagi hari,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">وَالْقَمَرِ إِذَا تَلَاهَا ﴿<span class="arabic_number">٢</span>﴾</p>                        
-                                        <p class ="latin">[2] dan bulan apabila mengiringinya,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">وَالنَّهَارِ إِذَا جَلَّاهَا ﴿<span class="arabic_number">٣</span>﴾</p>                        
-                                        <p class ="latin">[3] dan siang apabila menampakkannya,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">وَاللَّيْلِ إِذَا يَغْشَاهَا ﴿<span class="arabic_number">٤</span>﴾</p>                        
-                                        <p class ="latin">[4] dan malam apabila menutupinya,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">وَالسَّمَاءِ وَمَا بَنَاهَا ﴿<span class="arabic_number">٥</span>﴾</p>                        
-                                        <p class ="latin">[5] dan langit serta pembinaannya,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">وَالْأَرْضِ وَمَا طَحَاهَا ﴿<span class="arabic_number">٦</span>﴾</p>                        
-                                        <p class ="latin">[6] dan bumi serta penghamparannya,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">وَنَفْسٍ وَمَا سَوَّاهَا ﴿<span class="arabic_number">٧</span>﴾</p>                        
-                                        <p class ="latin">[7] dan jiwa serta penyempurnaannya (ciptaannya),</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا ﴿<span class="arabic_number">٨</span>﴾</p>                        
-                                        <p class ="latin">[8] maka Allah mengilhamkan kepada jiwa itu (jalan) kefasikan dan ketakwaannya.</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">قَدْ أَفْلَحَ مَنْ زَكَّاهَا ﴿<span class="arabic_number">٩</span>﴾</p>                        
-                                        <p class ="latin">[9] sesungguhnya beruntunglah orang yang mensucikan jiwa itu,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">وَقَدْ خَابَ مَنْ دَسَّاهَا ﴿<span class="arabic_number">١٠</span>﴾</p>                        
-                                        <p class ="latin">[10] dan sesungguhnya merugilah orang yang mengotorinya.</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">كَذَّبَتْ ثَمُودُ بِطَغْوَاهَا ﴿<span class="arabic_number">١١</span>﴾</p>                        
-                                        <p class ="latin">[11] (Kaum) Tsamud telah mendustakan (rasulnya) karena mereka melampaui batas,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">إِذِ انْبَعَثَ أَشْقَاهَا ﴿<span class="arabic_number">١٢</span>﴾</p>                        
-                                        <p class ="latin">[12] ketika bangkit orang yang paling celaka di antara mereka,</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا ﴿<span class="arabic_number">١٣</span>﴾</p>                        
-                                        <p class ="latin">[13] lalu Rasul Allah (Saleh) berkata kepada mereka: ("Biarkanlah) unta betina Allah dan minumannya".</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُمْ بِذَنْبِهِمْ فَسَوَّاهَا ﴿<span class="arabic_number">١٤</span>﴾</p>                        
-                                        <p class ="latin">[14] Lalu mereka mendustakannya dan menyembelih unta itu, maka Tuhan mereka membinasakan mereka disebabkan dosa mereka, lalu Allah menyama-ratakan mereka (dengan tanah),</p>                    
-                                    </div>
-                                    <br>
-                                    <div class="kad kad--padding kad--path">
-                                        <p class ="arabic">وَلَا يَخَافُ عُقْبَاهَا ﴿<span class="arabic_number">١٥</span>﴾</p>                        
-                                        <p class ="latin">[15] dan Allah tidak takut terhadap akibat tindakan-Nya itu.</p>                    
-                                    </div>
+                                    <h4 class="judul" align="center">Asy-Syams</h4>
+                                    <p class ="arabic_center">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>                    
+                                </div>
+                                <br>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَالشَّمْسِ وَضُحَاهَا ﴿<span class="arabic_number">١</span>﴾</p>
+                                    <p class ="latin" align="right">Wash shamsi wa duhaa haa</p>                        
+                                    <p class ="latin">[1] Demi matahari dan cahayanya di pagi hari,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَالْقَمَرِ إِذَا تَلَاهَا ﴿<span class="arabic_number">٢</span>﴾</p>
+                                    <p class ="latin" align="right">Wal qamari izaa talaa haa/p>                        
+                                    <p class ="latin">[2] dan bulan apabila mengiringinya,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَالنَّهَارِ إِذَا جَلَّاهَا ﴿<span class="arabic_number">٣</span>﴾</p> 
+                                    <p class ="latin" align="right">Wannahaari izaa jallaa haa</p>                       
+                                    <p class ="latin">[3] dan siang apabila menampakkannya,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَاللَّيْلِ إِذَا يَغْشَاهَا ﴿<span class="arabic_number">٤</span>﴾</p>
+                                    <p class ="latin" align="right">Wallaili izaa yaghshaa haa</p>                        
+                                    <p class ="latin">[4] dan malam apabila menutupinya,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَالسَّمَاءِ وَمَا بَنَاهَا ﴿<span class="arabic_number">٥</span>﴾</p>
+                                    <p class ="latin" align="right">Wassamaaa'i wa maa banaahaa</p>                        
+                                    <p class ="latin">[5] dan langit serta pembinaannya,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَالْأَرْضِ وَمَا طَحَاهَا ﴿<span class="arabic_number">٦</span>﴾</p> 
+                                    <p class ="latin" align="right">Wal ardi wa maa tahaahaa</p>                       
+                                    <p class ="latin">[6] dan bumi serta penghamparannya,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَنَفْسٍ وَمَا سَوَّاهَا ﴿<span class="arabic_number">٧</span>﴾</p>
+                                    <p class ="latin" align="right">Wa nafsinw wa maa sawwaahaa</p>                        
+                                    <p class ="latin">[7] dan jiwa serta penyempurnaannya (ciptaannya),</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا ﴿<span class="arabic_number">٨</span>﴾</p>
+                                    <p class ="latin" align="right">Fa-alhamahaa fujuurahaa wa taqwaahaa</p>                        
+                                    <p class ="latin">[8] maka Allah mengilhamkan kepada jiwa itu (jalan) kefasikan dan ketakwaannya.</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">قَدْ أَفْلَحَ مَنْ زَكَّاهَا ﴿<span class="arabic_number">٩</span>﴾</p> 
+                                    <p class ="latin" align="right">Qad aflaha man zakkaahaa</p>                       
+                                    <p class ="latin">[9] sesungguhnya beruntunglah orang yang mensucikan jiwa itu,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَقَدْ خَابَ مَنْ دَسَّاهَا ﴿<span class="arabic_number">١٠</span>﴾</p>
+                                    <p class ="latin" align="right">Wa qad khaaba man dassaahaa</p>                        
+                                    <p class ="latin">[10] dan sesungguhnya merugilah orang yang mengotorinya.</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">كَذَّبَتْ ثَمُودُ بِطَغْوَاهَا ﴿<span class="arabic_number">١١</span>﴾</p>
+                                    <p class ="latin" align="right">Kazzabat Samuudu bi taghwaahaaa</p>                        
+                                    <p class ="latin">[11] (Kaum) Tsamud telah mendustakan (rasulnya) karena mereka melampaui batas,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">إِذِ انْبَعَثَ أَشْقَاهَا ﴿<span class="arabic_number">١٢</span>﴾</p> 
+                                    <p class ="latin" align="right">Izim ba'asa ashqoohaa</p>                       
+                                    <p class ="latin">[12] ketika bangkit orang yang paling celaka di antara mereka,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا ﴿<span class="arabic_number">١٣</span>﴾</p> 
+                                    <p class ="latin" align="right">Faqoola lahum Rasuulul laahi naaqatal laahi wa suqiyaahaa</p>                       
+                                    <p class ="latin">[13] lalu Rasul Allah (Saleh) berkata kepada mereka: ("Biarkanlah) unta betina Allah dan minumannya".</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُمْ بِذَنْبِهِمْ فَسَوَّاهَا ﴿<span class="arabic_number">١٤</span>﴾</p> 
+                                    <p class ="latin" align="right">Fakazzabuuhu fa'aqaruuhaa fadamdama 'alaihim Rabbuhum bizambihim fasaw waahaa</p>                       
+                                    <p class ="latin">[14] Lalu mereka mendustakannya dan menyembelih unta itu, maka Tuhan mereka membinasakan mereka disebabkan dosa mereka, lalu Allah menyama-ratakan mereka (dengan tanah),</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَلَا يَخَافُ عُقْبَاهَا ﴿<span class="arabic_number">١٥</span>﴾</p> 
+                                    <p class ="latin" align="right">Wa laa yakhaafu'uqbaahaa</p>                       
+                                    <p class ="latin">[15] dan Allah tidak takut terhadap akibat tindakan-Nya itu.</p>                    
                                 </div>
                             </div>
                         </div>   
