@@ -18,6 +18,7 @@ if(isset ($_SESSION['email'])){
 ?>
 
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,9 +37,6 @@ if(isset ($_SESSION['email'])){
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
-        <?php
-            if($r['id_level'] == 2){
-        ?>
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <img src="img/dashboard.png" width="30px" height="30px">
@@ -80,6 +78,7 @@ if(isset ($_SESSION['email'])){
                         <a class="collapse-item" href="iqro4.php">Iqro 4</a>
                         <a class="collapse-item" href="iqro5.php">Iqro 5</a>
                         <a class="collapse-item" href="iqro6.php">Iqro 6</a>
+                        
                     </div>
                 </div>
             </li>
@@ -133,54 +132,13 @@ if(isset ($_SESSION['email'])){
                 <div id="collapseEmpat" class="collapse" aria-labelledby="headingEmpat"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="video.php">Video Belajar Mengaji</a>
+                        <a class="collapse-item" href="video.php">Video belajar mengaji</a>
                     </div>
                 </div>
             </li>
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-        <?php
-            } else if($r['id_level'] == 1){
-        ?>
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <img src="img/dashboard.png" width="30px" height="30px">
-                </div>
-                <div class="sidebar-brand-text mx-3">Bisa Ngaji</div>
-            </a>
-            <hr class="sidebar-divider my-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="beranda.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Beranda</span>
-                </a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="manajemen_user.php">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen user</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSatu"
-                    aria-expanded="true" aria-controls="collapseSatu">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Manajemen Konten</span>
-                </a>
-                <div id="collapseSatu" class="collapse" aria-labelledby="headingSatu" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="video_admin.php">Video</a>
-                    </div>
-                </div>
-            </li>
-            <br>
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-        <?php
-            }
-        ?>
         </ul>
         <!-- End of Sidebar -->
 
@@ -204,12 +162,12 @@ if(isset ($_SESSION['email'])){
                             <!-- Dropdown User -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" id="custom-dropdown" href="user_setting.php">
+                                <a class="dropdown-item" href="user_setting.php">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     User Settings
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" id="custom-dropdown" href="logout.php" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -222,42 +180,74 @@ if(isset ($_SESSION['email'])){
             <!-- Content -->
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
+                    <h1 class="h3 mb-0 text-gray-800">Surat-surat pendek</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
-                                <div class="judul">
-                                    <h4 align="center">Doa Masuk Rumah</h4>
-                                    <br>
-                                </div>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
                                 <div class="kad">
-                                    <p class ="arabic_center">اللّهُمَّ اِنِّىْ اَسْأَلُكَ خَيْرَالْمَوْلِجِ وَخَيْرالْمَخْرَجِ بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبَّنَا تَوَكَّلْنَا</p>                        
-                                    <center><p class ="latin">"Allohumma innii asaluka khoirol mauliji wa khoirol makhroji bismillahi walajnaa wabismillahi khorojnaa wa’alallohi Robbanaa tawakalna."<br>
-                                    Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut nama Allah kami masuk dan dengan menyebut nama Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakal.</p></center>
-                                    <br><br><br><br>
-
-                                    <div class="judul">
-                                        <h4 align="center">Doa Keluar Rumah</h4>
-                                        <br>
-                                    </div>
-                                    <div class="kad">
-                                        <p class ="arabic_center">بِسْمِ اللهِ تَوَكَّلْتُ عَلىَ اللهِ لاَحَوْلَ وَلاَ قُوَّةَ اِلاَّ بِااللهِ</p>                        
-                                        <center><p class ="latin">“Bismillahi tawakaltu ‘alallohi laahaulaa walaaquwwata illabillah.”<br>
-                                            “Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan Allah.”</p></center> 
-                                    </div>
-                                    <br><br><br>       
+                                    <h4 class="judul" align="center">Az-Zalzalah</h4>
+                                    <p class ="arabic_center">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>                    
                                 </div>
-                            <div>        
+                                <br>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا ﴿<span class="arabic_number">١</span>﴾</p>
+                                    <p class ="latin" align="right">Izaa zul zilatil ardu zil zaalaha</p>                        
+                                    <p class ="latin">[1] Apabila bumi digoncangkan dengan goncangan (yang dahsyat),</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا ﴿<span class="arabic_number">٢</span>﴾</p>
+                                    <p class ="latin" align="right">Wa akh rajatil ardu athqoolaha</p>                        
+                                    <p class ="latin">[2] dan bumi telah mengeluarkan beban-beban berat (yang dikandung)nya,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَقَالَ الْإِنْسَانُ مَا لَهَا ﴿<span class="arabic_number">٣</span>﴾</p>
+                                    <p class ="latin" align="right">Wa qoolal insaanu ma laha</p>                        
+                                    <p class ="latin">[3] dan manusia bertanya: "Mengapa bumi (menjadi begini)?",</p>                     
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا ﴿<span class="arabic_number">٤</span>﴾</p>
+                                    <p class ="latin" align="right">Yawmaa izin tuhad dithu akhbaaraha</p>                        
+                                    <p class ="latin">[4] pada hari itu bumi menceritakan beritanya,</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا ﴿<span class="arabic_number">٥</span>﴾</p> 
+                                    <p class ="latin" align="right">Bi-anna rabbaka awhaa laha</p>                       
+                                    <p class ="latin">[5] karena sesungguhnya Tuhanmu telah memerintahkan (yang sedemikian itu) kepadanya.</p>                     
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِيُرَوْا أَعْمَالَهُمْ ﴿<span class="arabic_number">٦</span>﴾</p> 
+                                    <p class ="latin" align="right">Yawma iziy yas durun naasu ash tatal liyuraw a'maalahum</p>                       
+                                    <p class ="latin">[6] Pada hari itu manusia ke luar dari kuburnya dalam keadaan bermacam-macam, supaya diperlihatkan kepada mereka (balasan) pekerjaan mereka,</p>                     
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ ﴿<span class="arabic_number">٧</span>﴾</p> 
+                                    <p class ="latin" align="right">Famaiy ya'mal mithqala zarratin khai raiy-yarah</p>                       
+                                    <p class ="latin">[7] Barangsiapa yang mengerjakan kebaikan seberat dzarrahpun, niscaya dia akan melihat (balasan)nya.</p>                    
+                                </div>
+                                <hr>
+                                <div class="kad kad--padding kad--path">
+                                    <p class ="arabic">وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ ﴿<span class="arabic_number">٨</span>﴾</p> 
+                                    <p class ="latin" align="right">Wa maiy-y'amal mithqala zarratin sharraiy-yarah</p>                       
+                                    <p class ="latin">[8] Dan barangsiapa yang mengerjakan kejahatan sebesar dzarrahpun, niscaya dia akan melihat (balasan)nya pula.</p>                    
+                                </div>
+                            </div>
                         </div>   
                     </div>
                 </section>
             </div>
+            <br>
             <!-- End of Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+            <footer class="sticky-footer bg-light-grey">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <span>Copyright &copy; Kelompok 4</span>
@@ -294,6 +284,7 @@ if(isset ($_SESSION['email'])){
     <script src="js/sb-admin-2.min.js"></script>
 </body>
 </html>
+
 <?php
   }
 } else {

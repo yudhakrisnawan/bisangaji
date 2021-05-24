@@ -116,6 +116,10 @@ if(isset ($_SESSION['email'])){
                         <a class="collapse-item" href="surat1.php">Al-Fatihah</a>
                         <a class="collapse-item" href="surat2.php">Ad-Duha</a>
                         <a class="collapse-item" href="surat3.php">Asy-Syams</a>
+                        <a class="collapse-item" href="surat4.php">Al-Insyirah</a>
+                        <a class="collapse-item" href="surat5.php">At-Tin</a>
+                        <a class="collapse-item" href="surat6.php">Az-Zalzalah</a>
+                        <a class="collapse-item" href="surat7.php">Al-Qari`ah</a>
                     </div>
                 </div>
             </li>
@@ -195,7 +199,7 @@ if(isset ($_SESSION['email'])){
                                 <hr>
                                 <div class="kad kad--padding kad--path">
                                     <p class ="arabic">وَالْقَمَرِ إِذَا تَلَاهَا ﴿<span class="arabic_number">٢</span>﴾</p>
-                                    <p class ="latin" align="right">Wal qamari izaa talaa haa/p>                        
+                                    <p class ="latin" align="right">Wal qamari izaa talaa haa</p>                        
                                     <p class ="latin">[2] dan bulan apabila mengiringinya,</p>                    
                                 </div>
                                 <hr>
