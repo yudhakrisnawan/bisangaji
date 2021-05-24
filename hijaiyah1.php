@@ -192,6 +192,8 @@ if(isset ($_SESSION['email'])){
                                             <th>Huruf Latin</th>
                                             <th>Cara Membaca</th>
                                             <th>Audio (Fathah)</th>
+                                            <th>Audio (Kasroh)</th>
+                                            <th>Audio (Dhomah)</th>
                                         </tr>
                                     </thead>
                                     <tbody align="center">
@@ -201,9 +203,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Alif</td>
                                             <td>A</td>
                                             <td>A-I-U</td>
-                                            <td><audio id="player1" src="audio/Fathah/fatah_a.mp3"></audio>
+                                            <td><audio id="fathah1" src="audio/Fathah/fatah_a.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player1').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah1').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh1" src="audio/Kasroh/kasroh_i.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh1').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah1" src="audio/Domah/u.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah1').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -213,9 +225,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Ba’</td>
                                             <td>B</td>
                                             <td>Ba-Bi-Bu</td>
-                                            <td><audio id="player2" src="audio/Fathah/fatah_ba.mp3"></audio>
+                                            <td><audio id="fathah2" src="audio/Fathah/fatah_ba.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player2').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah2').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh2" src="audio/Kasroh/kasroh_bi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh2').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah2" src="audio/Domah/bu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah2').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -225,11 +247,21 @@ if(isset ($_SESSION['email'])){
                                             <td>Ta’</td>
                                             <td>T</td>
                                             <td>Ta-Ti-Tu</td>
-                                            <td><audio id="player3" src="audio/Fathah/fatah_ta.mp3"></audio>
+                                            <td><audio id="fathah3" src="audio/Fathah/fatah_ta.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player3').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah3').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
-                                            </th>
+                                            </td>
+                                            <td><audio id="kasroh3" src="audio/Kasroh/kasroh_ti.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh3').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah3" src="audio/Domah/tu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah3').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
@@ -237,9 +269,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Tsa’</td>
                                             <td>TS</td>
                                             <td>Tsa-Tsi-Tsu</td> 
-                                            <td><audio id="player4" src="audio/Fathah/fatah_sa.mp3"></audio>
+                                            <td><audio id="fathah4" src="audio/Fathah/fatah_sa.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player4').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah4').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh4" src="audio/Kasroh/kasroh_tsi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh4').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah4" src="audio/Domah/su.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah4').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -249,9 +291,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Jim</td>
                                             <td>J</td>
                                             <td>Ja-Ji-Ju</td>
-                                            <td><audio id="player5" src="audio/Fathah/fatah_ja.mp3"></audio>
+                                            <td><audio id="fathah5" src="audio/Fathah/fatah_ja.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player5').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah5').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh5" src="audio/Kasroh/kasroh_ji.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh5').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah5" src="audio/Domah/ju.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah5').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -261,9 +313,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Ḥa’</td>
                                             <td>Ḥ</td>
                                             <td>Ḥa- Ḥi- Ḥu</td>
-                                            <td><audio id="player6" src="audio/Fathah/fatah_ha.mp3"></audio>
+                                            <td><audio id="fathah6" src="audio/Fathah/fatah_ha.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player6').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah6').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh6" src="audio/Kasroh/kasroh_hii.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh6').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah6" src="audio/Domah/hu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah6').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -273,9 +335,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Kha’</td>
                                             <td>KH</td>
                                             <td>Kho-Khi-Khu</td>
-                                            <td><audio id="player7" src="audio/Fathah/fatah_kho.mp3"></audio>
+                                            <td><audio id="fathah7" src="audio/Fathah/fatah_kho.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player7').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah7').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh7" src="audio/Kasroh/kasroh_khi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh7').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah7" src="audio/Domah/khu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah7').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -285,9 +357,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Dal</td>
                                             <td>D</td>
                                             <td>Da-Di-Du</td>
-                                            <td><audio id="player8" src="audio/Fathah/fatah_da.mp3"></audio>
+                                            <td><audio id="fathah8" src="audio/Fathah/fatah_da.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player8').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah8').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh8" src="audio/Kasroh/kasroh_di.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh8').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah8" src="audio/Domah/du.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah8').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -297,9 +379,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Dzal</td>
                                             <td>DZ</td>
                                             <td>Dza-Dzi-Dzu</td>
-                                            <td><audio id="player9" src="audio/Fathah/fatah_dza.mp3"></audio>
+                                            <td><audio id="fathah9" src="audio/Fathah/fatah_dza.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player9').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah9').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh9" src="audio/Kasroh/kasroh_dzi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh9').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah9" src="audio/Domah/dzu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah9').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -309,9 +401,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Ra’</td>
                                             <td>R</td>
                                             <td>Ro-Ri-Ru</td>
-                                            <td><audio id="player10" src="audio/Fathah/fatah_ro.mp3"></audio>
+                                            <td><audio id="fathah10" src="audio/Fathah/fatah_ro.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player10').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah10').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh10" src="audio/Kasroh/kasroh_ri.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh10').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah10" src="audio/Domah/ru.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah10').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -321,9 +423,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Za’</td>
                                             <td>Z</td>
                                             <td>Za-Zi-Zu</td>
-                                            <td><audio id="player11" src="audio/Fathah/fatah_za.mp3"></audio>
+                                            <td><audio id="fathah11" src="audio/Fathah/fatah_za.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player11').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah11').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh11" src="audio/Kasroh/kasroh_zi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh11').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah11" src="audio/Domah/zu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah11').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -333,9 +445,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Sin</td>
                                             <td>S</td>
                                             <td>Sa-Si-Su</td>
-                                            <td><audio id="player12" src="audio/Fathah/fatah_sa.mp3"></audio>
+                                            <td><audio id="fathah12" src="audio/Fathah/fatah_sa.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player12').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah12').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh12" src="audio/Kasroh/kasroh_si.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh12').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah12" src="audio/Domah/su.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah12').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -345,9 +467,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Syin</td>
                                             <td>SY</td>
                                             <td>Sya-Syi-Syu</td>
-                                            <td><audio id="player13" src="audio/Fathah/fatah_sya.mp3"></audio>
+                                            <td><audio id="fathah13" src="audio/Fathah/fatah_sya.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player13').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah13').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh13" src="audio/Kasroh/kasroh_syi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh13').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah13" src="audio/Domah/syu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah13').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -357,9 +489,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Shad</td>
                                             <td>SH</td>
                                             <td>Sho-Shi-Shu</td>
-                                            <td><audio id="player14" src="audio/Fathah/fatah_sho.mp3"></audio>
+                                            <td><audio id="fathah14" src="audio/Fathah/fatah_sho.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player14').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah14').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh14" src="audio/Kasroh/kasroh_shi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh14').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah14" src="audio/Domah/shu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah14').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -369,9 +511,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Dha’</td>
                                             <td>DH</td>
                                             <td>Dho-Dhi-Dhu</td>
-                                            <td><audio id="player15" src="audio/Fathah/fatah_dho.mp3"></audio>
+                                            <td><audio id="fathah15" src="audio/Fathah/fatah_dho.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player15').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah15').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh15" src="audio/Kasroh/kasroh_dhi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh15').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah15" src="audio/Domah/dhu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah15').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -381,9 +533,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Tha’</td>
                                             <td>TH</td>
                                             <td>Tho-Thi-Thu</td>
-                                            <td><audio id="player16" src="audio/Fathah/fatah_tho.mp3"></audio>
+                                            <td><audio id="fathah16" src="audio/Fathah/fatah_tho.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player16').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah16').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh16" src="audio/Kasroh/kasroh_thi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh16').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah16" src="audio/Domah/thu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah16').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -393,9 +555,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Zha’</td>
                                             <td>ZH</td>
                                             <td>Dzo-Dzi-Dzu</td>
-                                            <td><audio id="player17" src="audio/Fathah/fatah_dzo.mp3"></audio>
+                                            <td><audio id="fathah17" src="audio/Fathah/fatah_dzo.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player17').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah17').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh17" src="audio/Kasroh/kasroh_dzi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh17').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah17" src="audio/Domah/dzu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah17').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -405,9 +577,19 @@ if(isset ($_SESSION['email'])){
                                             <td>‘Ain</td>
                                             <td>-</td>
                                             <td>‘a-‘i-‘u</td>
-                                            <td><audio id="player18" src="audio/Fathah/fatah_a.mp3"></audio>
+                                            <td><audio id="fathah18" src="audio/Fathah/fatah_aa.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player18').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah18').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh18" src="audio/Kasroh/kasroh_ii.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh18').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah18" src="audio/Domah/uu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah18').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -417,9 +599,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Ghain</td>
                                             <td>GH</td>
                                             <td>Gho-Ghi-Ghu</td>
-                                            <td><audio id="player19" src="audio/Fathah/fatah_gho.mp3"></audio>
+                                            <td><audio id="fathah19" src="audio/Fathah/fatah_gho.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player19').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah19').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh19" src="audio/Kasroh/kasroh_ghi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh19').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah19" src="audio/Domah/ghu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah19').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -429,9 +621,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Fa’</td>
                                             <td>F</td>
                                             <td>Fa-Fi-Fu</td>
-                                            <td><audio id="player20" src="audio/Fathah/fatah_fa.mp3"></audio>
+                                            <td><audio id="fathah20" src="audio/Fathah/fatah_fa.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player20').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah20').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh20" src="audio/Kasroh/kasroh_fi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh20').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah20" src="audio/Domah/fu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah20').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -441,9 +643,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Qaf</td>
                                             <td>Q</td>
                                             <td>Qo-Qi-Qu</td>
-                                            <td><audio id="player21" src="audio/Fathah/fatah_qo.mp3"></audio>
+                                            <td><audio id="fathah21" src="audio/Fathah/fatah_qo.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player21').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah21').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh21" src="audio/Kasroh/kasroh_qi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh21').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah21" src="audio/Domah/qu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah21').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -453,9 +665,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Kaf</td>
                                             <td>K</td>
                                             <td>Ka-Ki-Ku</td>
-                                            <td><audio id="player22" src="audio/Fathah/fatah_ka.mp3"></audio>
+                                            <td><audio id="fathah22" src="audio/Fathah/fatah_ka.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player22').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah22').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh22" src="audio/Kasroh/kasroh_ki.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh22').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah22" src="audio/Domah/ku.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah22').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -465,9 +687,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Lam</td>
                                             <td>L</td>
                                             <td>La-Li-Lu</td>
-                                            <td><audio id="player23" src="audio/Fathah/fatah_la.mp3"></audio>
+                                            <td><audio id="fathah23" src="audio/Fathah/fatah_la.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player23').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah23').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh23" src="audio/Kasroh/kasroh_li.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh23').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah23" src="audio/Domah/lu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah23').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -477,9 +709,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Mim</td>
                                             <td>M</td>
                                             <td>Ma-Mi-Mu</td>
-                                            <td><audio id="player24" src="audio/Fathah/fatah_ma.mp3"></audio>
+                                            <td><audio id="fathah24" src="audio/Fathah/fatah_ma.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player24').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah24').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh24" src="audio/Kasroh/kasroh_mi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh24').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah24" src="audio/Domah/mu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah24').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -489,9 +731,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Nun</td>
                                             <td>N</td>
                                             <td>Na-Ni-Nu</td>
-                                            <td><audio id="player25" src="audio/Fathah/fatah_na.mp3"></audio>
+                                            <td><audio id="fathah25" src="audio/Fathah/fatah_na.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player25').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah25').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh25" src="audio/Kasroh/kasroh_ni.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh25').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah25" src="audio/Domah/nu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah25').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -501,9 +753,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Waw</td>
                                             <td>W</td>
                                             <td>Wa-Wi-Wu</td>
-                                            <td><audio id="player26" src="audio/Fathah/fatah_wa.mp3"></audio>
+                                            <td><audio id="fathah26" src="audio/Fathah/fatah_wa.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player26').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah26').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh26" src="audio/Kasroh/kasroh_wi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh26').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah26" src="audio/Domah/wu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah26').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -513,9 +775,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Ha’</td>
                                             <td>H</td>
                                             <td>Ha-Hi-Hu</td>
-                                            <td><audio id="player27" src="audio/Fathah/fatah_ha.mp3"></audio>
+                                            <td><audio id="fathah27" src="audio/Fathah/fatah_ha.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player27').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah27').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh27" src="audio/Kasroh/kasroh_hii.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh27').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah27" src="audio/Domah/hu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah27').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -525,9 +797,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Lam Alif</td>
                                             <td>L</td>
                                             <td>La</td>
-                                            <td><audio id="player28" src="audio/Fathah/fatah_la.mp3"></audio>
+                                            <td><audio id="fathah28" src="audio/Fathah/fatah_la.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player28').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah28').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh28" src="audio/Kasroh/kasroh_li.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh28').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah28" src="audio/Domah/lu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah28').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -537,9 +819,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Hamzah</td>
                                             <td>‘</td>
                                             <td>A-I-U</td>
-                                            <td><audio id="player29" src="audio/Fathah/fatah_a.mp3"></audio>
+                                            <td><audio id="fathah29" src="audio/Fathah/fatah_aa.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player29').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah29').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh29" src="audio/Kasroh/kasroh_ii.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh29').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah29" src="audio/Domah/uu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah29').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -549,9 +841,19 @@ if(isset ($_SESSION['email'])){
                                             <td>Ya’</td>
                                             <td>Y</td>
                                             <td>Ya-Yi-Yu</td>
-                                            <td><audio id="player30" src="audio/Fathah/fatah_ya.mp3"></audio>
+                                            <td><audio id="fathah30" src="audio/Fathah/fatah_ya.mp3"></audio>
                                                 <div>
-                                                    <button onclick="document.getElementById('player30').play()" class="btn btn-outline-secondary btn-sm" >Play</button>
+                                                    <button onclick="document.getElementById('fathah30').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="kasroh30" src="audio/Kasroh/kasroh_yi.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('kasroh30').play()" class="btn btn-success btn-sm" >Play</button>
+                                                </div>
+                                            </td>
+                                            <td><audio id="domah30" src="audio/Domah/yu.mp3"></audio>
+                                                <div>
+                                                    <button onclick="document.getElementById('domah30').play()" class="btn btn-success btn-sm" >Play</button>
                                                 </div>
                                             </td>
                                         </tr>
