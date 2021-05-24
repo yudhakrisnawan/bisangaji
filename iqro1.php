@@ -664,6 +664,216 @@ if(isset ($_SESSION['email'])){
                         </div>
                     </div>         
                 </section>
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="container">
+                        <div class="tab-content terms-tab-content fsize-m-2">
+                            <div class="judul">
+                                <h3 align="center">Halaman 8<i class="fas fa-signal-4    "></i></h3>
+                                <br>
+                            </div>
+                            <div class="container"> 
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ<p></div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">دَ ذَ</p></div>
+                                </div>
+
+                                <hr>
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">خَ دَ ذَ</div>
+                                    <div class="col"><p class="arabic_center">دَ اَ ذَ</div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">جَ حَ ذَ</div>
+                                    <div class="col"><p class="arabic_center">اَ حَ دَ</div>
+                                </div>
+                                <hr>
+
+                                  
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">ثَ اَ ذَ</div>
+                                    <div class="col"><p class="arabic_center">خَ تَ دَ</div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">ذَ بَ حَ<p></div>
+                                    <div class="col"><p class="arabic_center">جَ حَ خَ</p></div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">اَ خَ ذَ<p></div>
+                                    <div class="col"><p class="arabic_center">حَ دَ ثَ</p></div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">خَ دَ ذَ<p></div>
+                                    <div class="col"><p class="arabic_center">دَ اَ ذَ<p></div>
+                                </div>
+                                <hr>
+                                
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">اَ بَ تَ ثَ جَ حَ خَ دَ ذَ<p></div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="container">
+                        <div class="tab-content terms-tab-content fsize-m-2">
+                            <div class="judul">
+                                <h3 align="center">Halaman 9<i class="fas fa-signal-4    "></i></h3>
+                                <br>
+                            </div>
+                            <div class="container"> 
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ<p></div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">رَ</p></div>
+                                </div>
+
+                                <hr>
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">خَ ذَ رَ</div>
+                                    <div class="col"><p class="arabic_center">دَ ذَ رَ</div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">جَ رَ ذَ</div>
+                                    <div class="col"><p class="arabic_center">رَ حَ دَ</div>
+                                </div>
+                                <hr>
+
+                                  
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">تَ ذَ رَ</div>
+                                    <div class="col"><p class="arabic_center">رَ حَ ثَ</div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">خَ رَ جَ<p></div>
+                                    <div class="col"><p class="arabic_center">بَ رَ دَ</p></div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">بَ رَ تَ<p></div>
+                                    <div class="col"><p class="arabic_center">خَ ذَ رَ</p></div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">حَ جَ رَ<p></div>
+                                    <div class="col"><p class="arabic_center">خَ خَ ذَ<p></div>
+                                </div>
+                                <hr>
+                                
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">اَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ<p></div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="container">
+                        <div class="tab-content terms-tab-content fsize-m-2">
+                            <div class="judul">
+                                <h3 align="center">Halaman 10<i class="fas fa-signal-4    "></i></h3>
+                                <br>
+                            </div>
+                            <div class="container"> 
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ<p></div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">رَ زَ</p></div>
+                                </div>
+
+                                <hr>
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">ذَ رَ زَ</div>
+                                    <div class="col"><p class="arabic_center">رَ اَ زَ</div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">زَ خَ ذَ</div>
+                                    <div class="col"><p class="arabic_center">زَ دَ رَ</div>
+                                </div>
+                                <hr>
+
+                                  
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">ثَ رَ زَ</div>
+                                    <div class="col"><p class="arabic_center">زَ حَ دَ</div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">تَ زَ دَ<p></div>
+                                    <div class="col"><p class="arabic_center">خَ رَ جَ</p></div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">ثَ حَ ذَ<p></div>
+                                    <div class="col"><p class="arabic_center">بَ زَ رَ</p></div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">زَ اَ زَ<p></div>
+                                    <div class="col"><p class="arabic_center">جَ اَ خَ<p></div>
+                                </div>
+                                <hr>
+                                
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">اَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ زَ<p></div>
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                    <div class="col"><p class="arabic_center"></p></div>
+                                <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
             </div>
             <!-- End of Content -->
 
