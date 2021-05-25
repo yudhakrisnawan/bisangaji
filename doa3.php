@@ -182,30 +182,29 @@ if(isset ($_SESSION['email'])){
                     <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
-                                <div class="judul">
-                                    <h4 align="center">Doa Masuk Masjid</h4>
-                                    <br>
-                                </div>
-                                <div class="kad">  
-                                    <p class ="arabic_center">أَعُوْذُ بِاللهِ الْعَظِيْمِ وَبِوَجْهِهِ الْكَرِيْمِ وَسُلْطَانِهِ الْقَدِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ. بِسْمِ اللهِ وَالْحَمْدُ لِلهِ. أَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ. اَللَّهُمَّ اغْفِرْ لِي ذُنُوْبِي وَافْتَحْ لِي أَبْوَابَ رَحْمَتِكَ</p> <br>                        
-                                    <center><p class ="latin">"A’uudzu billaahil ‘azhiim wa biwajhihil kariim wa sulthaanihil qadiim minas syaithaanir rajiim. Bismillaahi wal hamdulillaah. Allaahumma shalli wa sallim ‘alaa sayyidinaa muhammadin wa ‘alaa aali sayyidinaa muhammadin. Allaahummaghfirlii dzunuubii waftahlii abwaaba rahmatik."<br><br>
-                                        "Aku berlindung kepada Allah Yang Maha Besar, Dzat-Nya Yang Maha Mulia, dan kepada kerajaan-Nya Yang Sedia dari setan yang terkutuk. Dengan nama Allah dan segala puji bagi Allah. Ya Tuhanku, berilah shalawat dan sejahtera atas Sayyidina Nabi Muhammad dan atas keluarga Sayyidina Nabi Muhammad. Ya Tuhanku, ampuni untukku segala dosaku. Bukalah bagiku beberapa pintu rahmat-Mu,"</p></center>
-                                    <br><br><br><br>
-
-                                    <div class="judul">
-                                        <h4 align="center">Doa Keluar Masjid</h4>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="konten" align="center">
+                                    <div class="doa">
+                                        <h4>Doa Masuk Masjid</h4> 
                                         <br>
+                                        <p class ="arabic_center">أَعُوْذُ بِاللهِ الْعَظِيْمِ وَبِوَجْهِهِ الْكَرِيْمِ وَسُلْطَانِهِ الْقَدِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ. بِسْمِ اللهِ وَالْحَمْدُ لِلهِ. أَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ. اَللَّهُمَّ اغْفِرْ لِي ذُنُوْبِي وَافْتَحْ لِي أَبْوَابَ رَحْمَتِكَ</p> <br>                        
+                                        <p class ="latin">A’uudzu billaahil ‘azhiim wa biwajhihil kariim wa sulthaanihil qadiim minas syaithaanir rajiim. Bismillaahi wal hamdulillaah. Allaahumma shalli wa sallim ‘alaa sayyidinaa muhammadin wa ‘alaa aali sayyidinaa muhammadin. Allaahummaghfirlii dzunuubii waftahlii abwaaba rahmatik.<br><br>
+                                        "Aku berlindung kepada Allah Yang Maha Besar, Dzat-Nya Yang Maha Mulia, dan kepada kerajaan-Nya Yang Sedia dari setan yang terkutuk. Dengan nama Allah dan segala puji bagi Allah. Ya Tuhanku, berilah shalawat dan sejahtera atas Sayyidina Nabi Muhammad dan atas keluarga Sayyidina Nabi Muhammad. Ya Tuhanku, ampuni untukku segala dosaku. Bukalah bagiku beberapa pintu rahmat-Mu,"</p>
                                     </div>
-                                    <div class="kad">
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <div class="doa">
+                                        <h4>Doa Keluar Masjid</h4> 
+                                        <br>
                                         <p class ="arabic_center">أعُوْذُ بِاللهِ العَظِيْمِ وَبِوَجْهِهِ الْكَرِيْمِ وَسُلْطَانِهِ الْقَدِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ. بِسْمِ اللهِ وَالْحَمْدُ لِلهِ. أَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ. اَللَّهُمَّ اغْفِرْ لِي ذُنُوْبِي وَافْتَحْ لِي أَبْوَابَ فَضْلِكَ</p> <br>                      
-                                        <center><p class ="latin">"A’uudzu billaahil ‘azhiim wa biwajhihil kariim wa sulthaanihil qadiim minas syaithaanir rajiim. Bismillaahi wal hamdulillaah. Allaahumma shalli wa sallim ‘alaa sayyidinaa muhammadin wa ‘alaa aali sayyidinaa muhammadin. Allâhummaghfirlii dzunuubii waftahlii abwaaba fadhlik."<br><br>
-                                            "Aku berlindung kepada Allah Yang Maha Besar, kepada Dzat-Nya Yang Maha Mulia, dan kepada kerajaan-Nya Yang Sedia dari setan yang terlontar. Dengan nama Allah dan segala puji bagi Allah. Hai Tuhanku, berilah shalawat dan sejahtera atas Sayyidina Muhammad dan atas keluarga Sayyidina Muhammad. Hai Tuhanku, ampuni untukku segala dosaku. Bukakan lah bagiku segala pintu kemurahan-Mu."</p></center> 
+                                        <p class ="latin">A’uudzu billaahil ‘azhiim wa biwajhihil kariim wa sulthaanihil qadiim minas syaithaanir rajiim. Bismillaahi wal hamdulillaah. Allaahumma shalli wa sallim ‘alaa sayyidinaa muhammadin wa ‘alaa aali sayyidinaa muhammadin. Allâhummaghfirlii dzunuubii waftahlii abwaaba fadhlik.<br><br>
+                                        "Aku berlindung kepada Allah Yang Maha Besar, kepada Dzat-Nya Yang Maha Mulia, dan kepada kerajaan-Nya Yang Sedia dari setan yang terlontar. Dengan nama Allah dan segala puji bagi Allah. Hai Tuhanku, berilah shalawat dan sejahtera atas Sayyidina Muhammad dan atas keluarga Sayyidina Muhammad. Hai Tuhanku, ampuni untukku segala dosaku. Bukakan lah bagiku segala pintu kemurahan-Mu."</p>
                                     </div>
-                                    <br><br><br>       
                                 </div>
+                                <br>    
                             <div>        
                         </div>   
                     </div>

@@ -225,30 +225,30 @@ if(isset ($_SESSION['email'])){
                     <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
-                                <div class="judul">
-                                    <h4 align="center">Doa Naik Kendaraan Darat</h4>
-                                    <br>
-                                </div>
-                                <div class="kad">
-                                    <p class ="arabic_center">سُبْحَانَ اَلّذِىْ سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ مُقْرِنِيْنَ وَانَّا اِلَى رَبَّنَا لَمُنْقَلِبُوْنَ</p>                        
-                                    <center><p class ="latin">"Subhaanalladzii sakhkhorolanaa hadzaa wamaa kunnaalahu muqriniina wainnaa ilaa robbinaa lamunqolibuun"<br>
-                                    Maha suci Allah yang memudahkan ini (kendaraan) bagi kami dan tiada kami persekutukan bagi-Nya, dan sesungguhnya kami akan kembali kepada Tuhan kami.</p></center>
-                                    <br><br><br><br>
-
-                                    <div class="judul">
-                                        <h4 align="center">Doa Naik Kendaraan Laut</h4>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="konten" align="center">
+                                    <div class="doa">
+                                        <h4>Doa Naik Kendaraan Darat</h4> 
                                         <br>
+                                        <p class ="arabic_center">سُبْحَانَ اَلّذِىْ سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ مُقْرِنِيْنَ وَانَّا اِلَى رَبَّنَا لَمُنْقَلِبُوْنَ</p>                        
+                                        <p class ="latin">Subhaanalladzii sakhkhorolanaa hadzaa wamaa kunnaalahu muqriniina wainnaa ilaa robbinaa lamunqolibuun<br>
+                                        "Maha suci Allah yang memudahkan ini (kendaraan) bagi kami dan tiada kami persekutukan bagi-Nya, dan sesungguhnya kami akan kembali kepada Tuhan kami."</p>
                                     </div>
-                                    <div class="kad">
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <div class="doa">
+                                        <h4>Doa Naik Kendaraan Laut</h4> 
+                                        <br>
                                         <p class ="arabic_center">بِسْمِ اللهِ مَجْرهَا وَمُرْسَهَا اِنَّ رَبِّيْ لَغَفُوْرُرَّحِيْمٌ</p>                        
-                                        <center><p class ="latin">“Bismillaahi majrohaa wamursahaa inna robbii laghofuururrohiim.”<br>
-                                        “Dengan nama Allah yang menjalankan kendaraan ini berlayar dan berlabuh sesungguhnya Tuhanku Maha Pemaaf lagi Pengasih.”</p></center> 
+                                        <p class ="latin">Bismillaahi majrohaa wamursahaa inna robbii laghofuururrohiim<br>
+                                        “Dengan nama Allah yang menjalankan kendaraan ini berlayar dan berlabuh sesungguhnya Tuhanku Maha Pemaaf lagi Pengasih.”</p>
                                     </div>
-                                    <br><br><br>       
                                 </div>
+                                <br>
+                                <br>
                             <div>        
                         </div>   
                     </div>

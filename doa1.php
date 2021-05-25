@@ -182,43 +182,40 @@ if(isset ($_SESSION['email'])){
                     <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
-                                <div class="judul">
-                                    <h4 align="center">Doa Sebelum Makan</h4>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="konten" align="center">
+                                    <div class="doa">
+                                        <h4>Doa Sebelum Makan</h4> 
+                                        <br>
+                                        <p class ="arabic_center">اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ</p>                        
+                                        <p class ="latin">Allahumma baarik lanaa fiimaa rozaqtanaa wa qinaa 'adzaa bannaar <br>
+                                        “Ya Allah, berkahilah untukku dalam sesuatu yang Engkau rezekikan kepadaku, dan peliharalah aku dari siksa neraka.”</p>
+                                    </div>
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <div class="doa">
+                                        <h4>Doa Sesudah Makan</h4> 
+                                        <br>
+                                        <p class ="arabic_center">اَلْحَمْدُ ِللهِ الَّذِيْنَ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِيْنَ</p>                        
+                                        <p class ="latin">Alhamdu lillahhil-ladzi ath-amanaa wa saqaana waja'alanaa minal muslimiin<br>
+                                        "Segala puji bagi Allah yang telah memberi makan dan minum kepada kami dan menjadikan kami orang-orang muslim" </p>
+                                    </div>
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <div class="doa">
+                                        <h4>Doa Ketika Lupa Berdoa Sebelum Makan</h4> 
+                                        <br>
+                                        <p class ="arabic_center">بِسْمِ اللهِ فِىِ أَوَّلِهِ وَآخِرِهِ</p>                        
+                                        <p class ="latin">Bismillaahi fii awwalihi wa aakhirihi<br>
+                                        "Dengan menyebut nama Allah pada awal dan akhirnya"</p> 
+                                    </div>
                                     <br>
                                 </div>
-                                <div class="kad">
-                                    <p class ="arabic_center">اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ</p>                        
-                                    <center><p class ="latin">"Allahumma baarik lanaa fiimaa rozaqtanaa wa qinaa 'adzaa bannaar." <br>
-                                    “Ya Allah, berkahilah untukku dalam sesuatu yang Engkau rezekikan kepadaku, dan peliharalah aku dari siksa neraka.”</p></center>
-                                    <br><br><br><br>
-
-                                    <div class="judul">
-                                        <h4 align="center">Doa Sesudah Makan</h4>
-                                        <br>
-                                    </div>
-                                    <div class="kad">
-                                        <p class ="arabic_center">اَلْحَمْدُ ِللهِ الَّذِيْنَ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِيْنَ</p>                        
-                                        <center><p class ="latin">"Alhamdu lillahhil-ladzi ath-amanaa wa saqaana waja'alanaa minal muslimiin."<br>
-                                        "Segala puji bagi Allah yang telah memberi makan dan minum kepada kami dan menjadikan kami orang-orang muslim" </p></center>
-
-                                    </div>
-                                    <br><br><br>
-
-                                    <div class="judul">
-                                        <h4 align="center">Doa Ketika Lupa Berdoa Sebelum Makan</h4>
-                                        <br>
-                                    </div>
-                                    <div class="kad">
-                                        <p class ="arabic_center">بِسْمِ اللهِ فِىِ أَوَّلِهِ وَآخِرِهِ</p>                        
-                                        <center><p class ="latin">"Bismillaahi fii awwalihi wa aakhirihi."<br>
-                                            "Dengan menyebut nama Allah pada awal dan akhirnya"</p></center> 
-                                        <br><br><br><br>
-                                    </div>        
-                                </div>
-                            <div>        
+                            </div>                              
                         </div>   
                     </div>
                 </section>

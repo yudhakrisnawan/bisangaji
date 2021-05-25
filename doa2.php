@@ -182,35 +182,37 @@ if(isset ($_SESSION['email'])){
                     <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
-                                <div class="judul">
-                                    <h4 align="center">Doa Sebelum Tidur</h4>
-                                    <br>
-                                </div>
-                                <div class="kad">
-                                    <p class ="arabic_center">بِسْمِكَ اللّهُمَّ اَحْيَا وَاَمُوْتُ</p>                        
-                                    <center><p class ="latin">"Bismikallohumma ahyaa wa amuut."<br>
-                                         Ya Allah, dengan namaMu aku hidup dan aku mati</p></center>
-                                    <br><br><br><br>
-
-                                    <div class="judul">
-                                        <h4 align="center">Doa Bangun Tidur</h4>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="konten" align="center">
+                                    <div class="doa">
+                                        <h4>Doa Sebelum Tidur</h4> 
                                         <br>
+                                        <p class ="arabic_center">بِسْمِكَ اللّهُمَّ اَحْيَا وَاَمُوْتُ</p>                        
+                                        <p class ="latin">Bismikallohumma ahyaa wa amuut<br>
+                                        Ya Allah, dengan namaMu aku hidup dan aku mati</p>
                                     </div>
-                                    <div class="kad">
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <div class="doa">
+                                        <h4>Doa Ketika Bangun Tidur</h4> 
+                                        <br>
                                         <p class ="arabic_center">اَلْحَمْدُ ِللهِ الَّذِى أَحْيَانَا بَعْدَمَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ</p>                        
-                                        <center><p class ="latin">“Alhamdullillahilladzi ahyaanaa bada maa amaatanaa wa ilaihin nushur.”<br>
-                                            “Segala puji bagi-Mu, ya Allah, yang telah menghidupkan kembali diriku setelah kematianku, dan hanya kepada-Nya nantinya kami semua akan dihidupkan kembali.”</p></center> 
+                                        <p class ="latin">Alhamdullillahilladzi ahyaanaa bada maa amaatanaa wa ilaihin nushur<br>
+                                        “Segala puji bagi-Mu, ya Allah, yang telah menghidupkan kembali diriku setelah kematianku, dan hanya kepada-Nya nantinya kami semua akan dihidupkan kembali.”</p>
                                     </div>
-                                    <br><br><br>       
-                                </div>
+                                    <br>
+                                </div>     
+                                <br>
                             <div>        
                         </div>   
                     </div>
                 </section>
             </div>
+            <br>
+            <br>
             <!-- End of Content -->
 
             <!-- Footer -->

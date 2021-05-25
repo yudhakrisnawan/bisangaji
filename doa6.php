@@ -225,30 +225,30 @@ if(isset ($_SESSION['email'])){
                     <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
-                                <div class="judul">
-                                    <h4 align="center">Doa Sebelum Belajar</h4>
-                                    <br>
-                                </div>
-                                <div class="kad">
-                                    <p class ="arabic_center">رَبِّ زِدْنِي عِلْمًا وَرْزُقْنِيْ فَهْمًا وَاجْعَلْنِيْ مِنَ الصَّالِحِيْنَ</p>                        
-                                    <center><p class ="latin">"Robbi zidni ‘ilmaa warzuqnii fahmaa waj’alnii minasshoolihiin"<br>
-                                    “Ya Allah tambahkanlah aku ilmu, Dan berilah aku karunia untuk dapat memahaminya, dan jadikanlah aku termasuk golongannya orang-orang yang sholih. Ya Allah kabulkanlah doaku ini.”</p></center>
-                                    <br><br><br><br>
-
-                                    <div class="judul">
-                                        <h4 align="center">Doa Sesudah Belajar</h4>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="konten" align="center">
+                                    <div class="doa">
+                                        <h4>Doa Sebelum Belajar</h4> 
                                         <br>
+                                        <p class ="arabic_center">رَبِّ زِدْنِي عِلْمًا وَرْزُقْنِيْ فَهْمًا وَاجْعَلْنِيْ مِنَ الصَّالِحِيْنَ</p>                        
+                                        <p class ="latin">Robbi zidni ‘ilmaa warzuqnii fahmaa waj’alnii minasshoolihiin<br>
+                                        “Ya Allah tambahkanlah aku ilmu, Dan berilah aku karunia untuk dapat memahaminya, dan jadikanlah aku termasuk golongannya orang-orang yang sholih. Ya Allah kabulkanlah doaku ini.”</p>
                                     </div>
-                                    <div class="kad">
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <div class="doa">
+                                        <h4>Doa Sesudah Belajar</h4> 
+                                        <br>
                                         <p class ="arabic_center">اللّهُمَّ أَرِنَآلْحَقَّ حَقًّا وَارْزُقْنَا اتِّبَاعَه وَأَرِنَآالْبَاطِلَ بَاطِلًا وَارْزُقْنَا اجْتِنَابَهُ</p>                        
-                                        <center><p class ="latin">“Allohumma arinalhaqqo haqqo warzuqnattibaa’ah wa arinal baathila baathila warzuqnattibaa’ah.”<br>
-                                        “Ya Allah, tunjukkanlah kepada kami kebenaran sehingga kami dapat mengikutinya. Dan tunjukkanlah kepada kami kejelekan sehingga kami dapat menjauhinya.”</p></center> 
+                                        <p class ="latin">“Allohumma arinalhaqqo haqqo warzuqnattibaa’ah wa arinal baathila baathila warzuqnattibaa’ah.”<br>
+                                        “Ya Allah, tunjukkanlah kepada kami kebenaran sehingga kami dapat mengikutinya. Dan tunjukkanlah kepada kami kejelekan sehingga kami dapat menjauhinya.”</p>
                                     </div>
-                                    <br><br><br>       
                                 </div>
+                                <br>
+                                <br>
                             <div>        
                         </div>   
                     </div>

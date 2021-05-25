@@ -225,30 +225,30 @@ if(isset ($_SESSION['email'])){
                     <h1 class="h3 mb-0 text-gray-800">Doa sehari-hari</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="container">
-                        <div class="tab-content terms-tab-content fsize-m-2">
-                            <div id="faq-collapse">
-                                <div class="judul">
-                                    <h4 align="center">Doa Masuk Rumah</h4>
-                                    <br>
-                                </div>
-                                <div class="kad">
-                                    <p class ="arabic_center">اللّهُمَّ اِنِّىْ اَسْأَلُكَ خَيْرَالْمَوْلِجِ وَخَيْرالْمَخْرَجِ بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبَّنَا تَوَكَّلْنَا</p>                        
-                                    <center><p class ="latin">"Allohumma innii asaluka khoirol mauliji wa khoirol makhroji bismillahi walajnaa wabismillahi khorojnaa wa’alallohi Robbanaa tawakalna."<br>
-                                    Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut nama Allah kami masuk dan dengan menyebut nama Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakal.</p></center>
-                                    <br><br><br><br>
-
-                                    <div class="judul">
-                                        <h4 align="center">Doa Keluar Rumah</h4>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="konten" align="center">
+                                    <div class="doa">
+                                        <h4>Doa Masuk Rumah</h4> 
                                         <br>
+                                        <p class ="arabic_center">اللّهُمَّ اِنِّىْ اَسْأَلُكَ خَيْرَالْمَوْلِجِ وَخَيْرالْمَخْرَجِ بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبَّنَا تَوَكَّلْنَا</p>                        
+                                        <p class ="latin">Allohumma innii asaluka khoirol mauliji wa khoirol makhroji bismillahi walajnaa wabismillahi khorojnaa wa’alallohi Robbanaa tawakalna.<br>
+                                        "Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut nama Allah kami masuk dan dengan menyebut nama Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakal."</p>
                                     </div>
-                                    <div class="kad">
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <div class="doa">
+                                        <h4>Doa Keluar Rumah</h4> 
+                                        <br>
                                         <p class ="arabic_center">بِسْمِ اللهِ تَوَكَّلْتُ عَلىَ اللهِ لاَحَوْلَ وَلاَ قُوَّةَ اِلاَّ بِااللهِ</p>                        
-                                        <center><p class ="latin">“Bismillahi tawakaltu ‘alallohi laahaulaa walaaquwwata illabillah.”<br>
-                                            “Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan Allah.”</p></center> 
+                                        <p class ="latin">“Bismillahi tawakaltu ‘alallohi laahaulaa walaaquwwata illabillah.”<br>
+                                        “Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan Allah.”</p> 
                                     </div>
-                                    <br><br><br>       
                                 </div>
+                                <br>
+                                <br>   
                             <div>        
                         </div>   
                     </div>
