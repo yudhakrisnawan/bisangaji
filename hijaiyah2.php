@@ -199,49 +199,49 @@ if(isset ($_SESSION['email'])){
                                     <tbody align="center">
                                         <tr>
                                             <td>1</td>
-                                            <td><p class ="arabic_center">اَ</p></td>
+                                            <td><p class ="arabic_center">ـــَـــ</p></td>
                                             <td>Fathah</td>
                                             <td>a</td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td><p class ="arabic_center">اِ</p></td>
+                                            <td><p class ="arabic_center">ـــِــ</p></td>
                                             <td>Kasrah</td>
                                             <td>i</td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td><p class ="arabic_center">اُ</p></td>
+                                            <td><p class ="arabic_center">ــُــ</p></td>
                                             <td>Dhammah</td>
                                             <td>u</td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
-                                            <td><p class ="arabic_center">اً</p></td>
+                                            <td><p class ="arabic_center">ــًــ</p></td>
                                             <td>Fathahin</td>
                                             <td>an</td>
                                         </tr>
                                         <tr>
                                             <td>5</td>
-                                            <td><p class ="arabic_center">اٍ</p></td>
+                                            <td><p class ="arabic_center">ــٍــ</p></td>
                                             <td>Kasratin</td>
                                             <td>in</td>
                                         </tr>
                                         <tr>
                                             <td>6</td>
-                                            <td><p class ="arabic_center">اٌ</p></td>
+                                            <td><p class ="arabic_center">ــٌــ</p></td>
                                             <td>Dhammahtin</td>
                                             <td>un</td>
                                         </tr>
                                         <tr>
                                             <td>7</td>
-                                            <td><p class ="arabic_center">ىْ</p></td>
+                                            <td><p class ="arabic_center"> ّ</p></td>
                                             <td>Tasdid</td>
                                             <td>Huruf sebelumnya dibaca lembur kedalam huruf berbaris ini, kemudian dibaca sesuai barisnya</td>
                                         </tr>
                                         <tr>
                                             <td>8</td>
-                                            <td><p class ="arabic_center">ىْ</p></td>
+                                            <td><p class ="arabic_center">ه</p></td>
                                             <td>Sukun</td>
                                             <td>Huruf sebelumnya dibaca lembur kedalam huruf ini, kemudia tidak dibaca (mati)</td>
                                         </tr>  

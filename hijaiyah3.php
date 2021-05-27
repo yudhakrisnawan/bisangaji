@@ -190,58 +190,71 @@ if(isset ($_SESSION['email'])){
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead align="center">
                                         <tr>
-                                            <th>Latin</th>
                                             <th>Arab</th>
+                                            <th>Latin</th>
+                                            <th>Arti</th>
                                         </tr>
                                     </thead>
                                     <tbody align="center">
                                         <tr>
-                                            <td>Satu</td>
                                             <td><p class ="arabic_number">١</p></td>
+                                            <td>Wahid</td>
+                                            <td>Satu</td>
                                         </tr>
                                         <tr>
-                                            <td>Dua</td>
                                             <td><p class ="arabic_number">٢</p></td>
+                                            <td>Itsnan</td>
+                                            <td>Dua</td>
                                         </tr>
                                         <tr>
-                                            <td>Tiga</td>
                                             <td><p class ="arabic_number">٣</p></td>
+                                            <td>Tsalatsah</td>
+                                            <td>Tiga</td>
                                         </tr>
                                         <tr>
-                                            <td>Empat</td>
                                             <td><p class ="arabic_number">٤</p></td>
+                                            <td>Arba’ah</td>
+                                            <td>Empat</td>
                                         </tr>
                                         <tr>
-                                            <td>Lima</td>
                                             <td><p class ="arabic_number">٥</p></td>
+                                            <td>Khamsah</td>
+                                            <td>Lima</td>
                                         </tr>
                                         <tr>
-                                            <td>Enam</td>
                                             <td><p class ="arabic_number">٦</p></td>
+                                            <td>Sittah</td>
+                                            <td>Enam</td>
                                         </tr>
                                         <tr>
-                                            <td>Tujuh</td>
                                             <td><p class ="arabic_number">٧</p></td>
+                                            <td>Sab’ah</td>
+                                            <td>Tujuh</td>
                                         </tr>
                                         <tr>
-                                            <td>Delapan</td>
                                             <td><p class ="arabic_number">٨</p></td>
+                                            <td>Tsamaniyah</td>
+                                            <td>Delapan</td>
                                         </tr>
                                         <tr>
-                                            <td>Sembilan</td>
                                             <td><p class ="arabic_number">٩</p></td>
+                                            <td>Tis’ ah</td>
+                                            <td>Sembilan</td>
                                         </tr>
                                         <tr>
-                                            <td>Puluhan</td>
-                                            <td><p class ="arabic_number">.</p></td>
+                                            <td><p class ="arabic_number">١.</p></td>
+                                            <td>‘Asyrah</td>
+                                            <td>Sepuluh</td>
                                         </tr>
                                         <tr>
-                                            <td>Ratusan</td>
-                                            <td><p class ="arabic_number">...</p></td>
+                                            <td><p class ="arabic_number">١..</p></td>
+                                            <td>Mi-ah</td>
+                                            <td>Seratus</td>
                                         </tr>
                                         <tr>
-                                            <td>Ribuan</td>
-                                            <td><p class ="arabic_number">...</p></td>
+                                            <td><p class ="arabic_number">١...</p></td>
+                                            <td>alf</td>
+                                            <td>Seribu</td>
                                         </tr>
                                     </tbody>    
                                 </table>

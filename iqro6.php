@@ -63,10 +63,6 @@ if(isset ($_SESSION['email'])){
                         <a class="collapse-item" href="hijaiyah1.php">Huruf hijaiyah</a>
                         <a class="collapse-item" href="hijaiyah2.php">Cara membaca hijaiyah</a>
                         <a class="collapse-item" href="hijaiyah3.php">Angka hijaiyah</a>
-                        <a class="collapse-item" href="surat4.php">Al-Insyirah</a>
-                        <a class="collapse-item" href="surat5.php">At-Tin</a>
-                        <a class="collapse-item" href="surat6.php">Az-Zalzalah</a>
-                        <a class="collapse-item" href="surat7.php">Al-Qari`ah</a>
                     </div>
                 </div>
             </li>
@@ -584,62 +580,7 @@ if(isset ($_SESSION['email'])){
                             </div>
                         </div>
                     </div>         
-                </section>
-
-                <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="card shadow mb-4">
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <div class="judul">
-                                    <h4 align="center" style="color:white; background-color:black">Halaman 8</h4>
-                                    <br>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                    </div>
-                                    <hr>
-                                   <div class="row">
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                        <div class="col"><p class="arabic_center"></p></div>
-                                    </div>
-                                    <hr>                                                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>         
-                </section>      
+                </section>    
             </div>
             <!-- End of Content -->
 
