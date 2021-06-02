@@ -659,6 +659,23 @@ if(isset ($_SESSION['email'])){
                         </div>
                     </div>
                 </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman </h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <!-- iqro -->                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+                
             </div>
             <!-- End of Content -->
 

@@ -560,8 +560,7 @@ if(isset ($_SESSION['email'])){
                                     <div class="row">
                                         <div class="col"><p class="arabic_center">وَيَصْلَى سَعِيْرًا</p></div>
                                         <div class="col"><p class="arabic_center">فَسَوْفَيَدْعُوْاثُبُوْرًا</p></div>                                       
-                                    </div>
-                                    <hr>                     
+                                    </div>                     
                                 </div>
                             </div>
                         </div>
@@ -618,11 +617,1425 @@ if(isset ($_SESSION['email'])){
                                         <div class="col"><p class="arabic_center">وَآلْأَرْضِوَمَاطَحَهَا</p></div>
                                         <div class="col"><p class="arabic_center">وَآلْقَمَرِإِذَاتَلَهَا</p></div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 8</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَوَضَعَ آلْمِيْزَانَ</p></div>
+                                        <div class="col"><p class="arabic_center">وَآلْقَمَرُبِحُسْبَانٍ</p></div>
+                                        
+                                    </div>
                                     <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">يُضَعَفُ لَهُمُ آلْعَذَابُ</p></div>
+                                        <div class="col"><p class="arabic_center">فَأَكْثَرُوْافِيْهَاآلْفَسَدَ</p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">ذَالِكَ آلْحِزْىُ آلْعَظِيْمُ</p></div>
+                                        <div class="col"><p class="arabic_center">وَتَضْحَكُوْنَ وَلاَتَبْحَكُوْنَ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">هَلْ يَسْتَوِيَنِ مَثَلاً</p></div>
+                                        <div class="col"><p class="arabic_center">لاَتَقُمْ لفِيْهِ أَبَدًا</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَحَشَرَفَنَادَى</p></div>
+                                        <div class="col"><p class="arabic_center">وَهُوَبِآلْأُفُقِ آلْأَعْلَى</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَهُوَآلْحَكِيْمُ آلْخَبِيْرُ</p></div>
+                                        <div class="col"><p class="arabic_center">أَلَمْيَأْتِكُمْ نَذِيْرٌ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">كَهَشِيْمِ آلْمُحْتَظِرِ</p></div>
+                                        <div class="col"><p class="arabic_center">فَآرْتَقِبْهُمْ وَآصْطَبِرْ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَتَوَاصَوْابِآلْمَرْحَمَةِ</p></div>
+                                        <div class="col"><p class="arabic_center">وَنَمَارِقُ مَصْفُوفَةٌ</p></div>
+                                        
+                                    </div>                          
                                 </div>
                             </div>
                         </div>
                     </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 9</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> dibaca panjang 5 harakat. Huruf و dianggap tidak ada.<p></div>
+                                        <div class="col"><p class="arabic_center"> لآَاَعْبُدُ -  اُولٰٓىِٕكَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> لآَاَعْبُدُ مَاتَعْبُدُوْنَ <p></div>
+                                        <div class="col"><p class="arabic_center"> اُولٰٓىِٕكَ هُمُ الْمُفْلِحُوْنَ  <p></div>
+                                    </div>                                  
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> عَلٰٓى اٰثَارِ هِمْ يُهْرَعُوْنَ <p></div>
+                                        <div class="col"><p class="arabic_center"> وَ سَلٰمٌ عَلَى الْمُرْسَلِيْنَ<p></div>                                
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اُولٰٓىِٕكَ عَلٰى هُدًى<p></div>
+                                        <div class="col"><p class="arabic_center"> مَاكِثِيْنَ فِيْهِ اَبَدًا<p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> ◌ اَلَمْ نَجْعلِ اْلاَرْضَ مِهَا دًا<p></div>
+                                        <div class="col"><p class="arabic_center"> بِهٰذَا الْحَدِ يْثِ اَسَفًا<p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> مِنْ اَوْلِيَٓاءَ<p></div>
+                                        <div class="col"><p class="arabic_center"> اُو لٰٓىِٕكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ<p></div> 
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> آَ اِلٰى هٰٓؤُ لآَءِوَلآَاِلٰى هٰٓؤُلآَ<p></div>               
+                                    </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 10</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> Setiap bacaan yang menghadap tasydid (  ّ  ) suara ditekan, ditahan 2 harakat dan berdengung<p></div>      
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِ نْ نَ =  ا نَّ<p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اَنَ اَنَّ عَمَ عَمَّ<p></div>
+                                        <div class="col"><p class="arabic_center"> اِنَّهُ اِنَّهَااُمُّهَ اُمَّهَا<p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِنَّهُمْ كَانُوْا مُجْرِمِيْنَ<p></div>
+                                        <div class="col"><p class="arabic_center"> وَاِنَّٓا اِلَيْهِ رٰجِعُوْنَ <p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">  ثُمَّ اَدْبَرَ يَسْعٰى <p></div>
+                                        <div class="col"><p class="arabic_center"> فَاِنَّ الْجَحِيْمَ هِيَ الْمَأْوٰى<p></div>                                    
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> لٰبِثِيْنَ فِيْهَٓا اَحْقَا باً <p></div>
+                                        <div class="col"><p class="arabic_center">  حَدَٓ اىِٕقَ وَاَ عْنَا بًا <p></div>
+                                </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِنَّ هٰذِهٖ تَذْكِرَةٌ<p></div>
+                                        <div class="col"><p class="arabic_center"> ثُمَّ اَمَا تَهُ فَاَ قْبَرَهُ <p></div>
+                                    </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 11</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> نُ  (  ًٌٍ )  ن / مMasuk dengan suara dengung<p></div>  
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> خَيْرٌ ← نِّسَٓاءٌ ◌ مِنْ ← مَّٓاءٍ<p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَمَا لَهُمْ مِّنْ نّٰصِرِ يْنَ <p></div>
+                                        <div class="col"><p class="arabic_center"> هُوَ فِيْ ضَلٰلٍ مُّبِيْنٍ <p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> عَلٰى صِرَاطٍ مُّسْتَقِيْمٍ <p></div>
+                                        <div class="col"><p class="arabic_center">  ثُمَّ دَمَّرْنَا اْلاٰ خَرِيْنَ<p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> قَلِيلاً مَّا تَشْكُرُوْنَ<p></div>
+                                        <div class="col"><p class="arabic_center"> قَالَ اِنَّكُمْ مَّا كِثُوْنَ<p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> لِيُقْضٰٓى اَجَلٌ مُّسَمًّى <p></div>
+                                        <div class="col"><p class="arabic_center"> اِنَّ كَيْديْ مَتِيْنٌ<p></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَلَنْ نُّعْجِزَ هُ هَرَبًا<p></div>
+                                        <div class="col"><p class="arabic_center"> فَكُلُوْهُ هَنِٓيْىًٔا مَّرِيْىًٔا <p></div>                                  
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> عَامِلَةٌ  نَّا صِبَةٌ<p></div>
+                                        <div class="col"><p class="arabic_center"> خُشُبٌ مُّسَنَّدَةٌ <p></div>
+                                    </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 12</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> ا ل  ّ(Alief Lam) dianggap tidak ada<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> بِالنُّذُرِ                                      وَالنَّاسُ                            وَالنَّهَارُ<p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> فِيْ صُدُوْرِ النَّاس    الْوَسْوَاسِ ا لْخَنَّاسِ<p></div>
+                                        <div class="col"><p class="arabic_center"> وَ النّٰزِعٰتِ غَرْقًا<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَالنّٰشِطٰتِ نَشْطًا<p></div>
+                                        <div class="col"><p class="arabic_center"> وَ كُنَّا نَخُوْضُ مَعَ الْخَٓا ىِٕضِيْنَ <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اَمْ كَانَ مِنَ الْغَٓا ىِٕبِيْنَ <p></div>
+                                        <div class="col"><p class="arabic_center"> اَنِّيْ لَكُمْ نَذِيْرٌ مُّبِيْنٌ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">  وَمَا لَكُمْ مِّنْ نّٰصِرِ يْنَ <p></div>
+                                        <div class="col"><p class="arabic_center"> عَمَّ يَتَسَٓاءَلُوْنَ <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> عَنِ النَّبَاِ الْعَظِيْمِ<p></div>
+                                        <div class="col"><p class="arabic_center"> ءَاِذَاكُنَّا عِظَامًا نَّخِرَةً <p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اُولٰٓىِٕكَ اَصْحٰبُ الْجَنَّةِ<p></div>
+                                        <div class="col"><p class="arabic_center"> <p></div>
+                                        
+                                    </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 13</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اَلنَّارِذَاتِ الْوَقُوْدِ<p></div>
+                                        <div class="col"><p class="arabic_center"> اِذْ هُمْ عَلَيْهَا قُعُوْدٌ <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِنَّ جَهَنَّمَ كَانَتْ مِرْ صَادًا <p></div>
+                                        <div class="col"><p class="arabic_center"> ◌ لِلطّٰغِيْنَ مَا بًا <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِنَّهُ لَمِنَ الْكٰذِبِيْنَ <p></div>
+                                        <div class="col"><p class="arabic_center"> ثُمَّ اَغْرَقْنَا اْلاٰخَرِيْنَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَ لاَ تُبْطِلُٓوْا اَ عْمَالَكُمْ <p></div>
+                                        <div class="col"><p class="arabic_center"> ثُمَّ قَضٰٓى اَجَلاً<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> فِيْهَا سُرُرٌمَّرْفُوْعَةٌ<p></div>
+                                        <div class="col"><p class="arabic_center"> وَاَكْوَابٌ مَّوْضُوْعَةٌ <p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِنَّ هٰذَا لَشَيْىٌٔ عَجِيْبٌ <p></div>
+                                        <div class="col"><p class="arabic_center"> اِنَّهُ حَمِيْدٌ مَّجِيْدٌ <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِنَّ اِلَيْنَٓا اِيَابَهُمْ <p></div>
+                                        <div class="col"><p class="arabic_center"> ثُمَّ اِنَّ عَلَيْنَا حِسَابَهُمٔ <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> فَادْخُلِيْ فِيْ عِبَادِيْ <p></div>
+                                        <div class="col"><p class="arabic_center">  وَادْ خُلِيْ جَنَّتِيْ <p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 14</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> Setiap bacaan yang menghadap tasydid agar ditekan dan ditahan 2 harakat<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> يُرَتِّلُ                            رَتَّلَ                        يُكَبِّرُ                       كَبَّرَ<p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> يُعَجِّل                           عَجَّلَ                       يُؤَثِّرُ                        اَثَّرَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> يُسَخِّرُ                           سَخَّرَ                       يُلَحِّنُ                      لَحَّنَ<p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> رَبِّ زِدْنِيْ عِلْمًا<p></div>
+                                        <div class="col"><p class="arabic_center"> وَارْزُقْنِيْ فَهْمًا<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اَلْهٰكُمُ التَّكَاثُرُ<p></div>
+                                        <div class="col"><p class="arabic_center"> حَتّٰى زُرْتُمُ الْمَقَابِرَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِنَّ اْلاَبْرَارَلَفِيْ نَعِيْمٍ<p></div>
+                                        <div class="col"><p class="arabic_center"> وَاِنَّ الْفُجَّارَ لَفِيْ جَحِيْمٍ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> سُبْحٰنَ الَّذِيْ سَخَّرَ لَنَا هٰذَا <p></div>
+                                        <div class="col"><p class="arabic_center"> وَمَا كُنَّا لَهُ مُقْرِنِيْنَ<p></div>
+                                        
+                                    </div>                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 15</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> بَدَّلَ                       يُبَدِّلُ                     اَذَّنَ                      يُؤَ ذِّنُ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> كَرَّمَ                      يُكَرِّمُ                    وَزَّرَ                      يُوَزِّرُ<p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> فَسَّرَ                      يُفَسِّرُ                    بَشَرَ                       يُبَشِّرُ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَاٰثَرَ الْحَيٰوةَ الدُّنْيَا <p></div>
+                                        <div class="col"><p class="arabic_center"> وَكَذَّبَ بِالْحُسْنٰى<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَالْمَلَكُ عَلٰٓى اَرْجَٓاىِٕهَا <p></div>
+                                        <div class="col"><p class="arabic_center"> فَكَذَّبُوْهُ فَعَقَرُوْهَا <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">  فِيْ صُحُفٍ مُّكَرَّمَةٍ <p></div>
+                                        <div class="col"><p class="arabic_center"> مَّرْفُوْعَةٍ مُّطَهَّرَةٍ <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> مَٓا اُوْحِيَ اِلَيْكَ <p></div>
+                                        <div class="col"><p class="arabic_center"> سَنَدْعُ الزَّبَانِيَةَ <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">  وَهُوَ السَّمِيْعُ الْعَلِيْمُ <p></div>
+                                        <div class="col"><p class="arabic_center">  لَنَكُوْنَنَّ مِنَ الشّٓكِرِ يْنَ <p></div>
+                                    
+                                    </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 16</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> خَفَّفَ  يُخَفِّفُ  وَقَرَّ  يُوَقِرُ<p></div> 
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> سَكَّنَ يُسَكِنُ عَلَّمَ يُعَلِّمُ<p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اَمَّنَ يُؤَمِّنُ مَنَّعَ يُمَنِّعُ<p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> كَاَنَّهُمْ لُؤُلُؤٌ مَّكْنُوْن<p></div>
+                                        <div class="col"><p class="arabic_center"> عَلٰى سُرُ رٍ مُّتَقٰبِلِيْنَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَلَقَدْ مَكَّنّٰهُمْ فِيْمَٓا اِنْ مَّكَّنّٰكُمْ فِيْهِ<p></div>
+                                        <div class="col"><p class="arabic_center"> اَرَءَ يْتَ الَّذِيْ يَنْهٰى<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> عَبْدً ا اِذَا صَلّٰى<p></div>
+                                        <div class="col"><p class="arabic_center"> حَقًّا عَلَى الْمُحْسِنِيْنَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَاِلاَّ تَغْفِرْ لِيْ وَتَرْحَمْنِيْ <p></div>
+                                        <div class="col"><p class="arabic_center"> مِنْ عَسَلٍ مُّصَفًّى<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَاتَّبَعَ هَوٰ ىهُ فَتَرْدٰى<p></div>
+                                        
+                                    </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 17</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> خَفَّفَ                يُخَفِّفُ                       وَ قَرَّ                         يُوَقِرُ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> سَكَّنَ                 يُسَكِنُ                        عَلَّمَ                          يُعَلِّمُ<p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اَمَّنَ                  يُؤَمِّنُ                         مَنَّعَ                         يُمَنِّعُ<p></div>                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> كَاَنَّهُمْ لُؤُلُؤٌ مَّكْنُوْنٌ <p></div>
+                                        <div class="col"><p class="arabic_center"> عَلٰى سُرُ رٍ مُّتَقٰبِلِيْنَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَلَقَدْ مَكَّنّٰهُمْ فِيْمَٓا اِنْ مَّكَّنّٰكُمْ فِيْهِ<p></div>
+                                        <div class="col"><p class="arabic_center"> اَرَءَ يْتَ الَّذِيْ يَنْهٰى<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> عَبْدً ا اِذَا صَلّٰى<p></div>
+                                        <div class="col"><p class="arabic_center"> حَقًّا عَلَى الْمُحْسِنِيْنَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَاِلاَّ تَغْفِرْ لِيْ وَتَرْحَمْنِيْ <p></div>
+                                        <div class="col"><p class="arabic_center"> مِنْ عَسَلٍ مُّصَفًّى<p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَاتَّبَعَ هَوٰ ىهُ فَتَرْدٰى<p></div>
+                                        
+                                    </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 18</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَا لشَّمْسِ وَضُحٰهَا<p></div>
+                                        <div class="col"><p class="arabic_center">  وَالْقَمَرِ اِذَا تَلٰهَا <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اَلَّذِيْ خَلَقَ فَسَوّٰى<p></div>
+                                        <div class="col"><p class="arabic_center">  وَالَّذِيْ قَدَّ رَ فَهَدٰ ى<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَاِبْرٰ هِيْمَ الَّذِيْ وَ فّٰى<p></div>
+                                        <div class="col"><p class="arabic_center"> اَفَرَ ءَيْتُمُ الّٰلتَ وَ الْعُزّٰ ی<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَاِذَا اْلاَرْضُ مُدَّتْ <p></div>
+                                        <div class="col"><p class="arabic_center"> وَاَلْقَتْ مَافِيْهَا وَ تَخَلَّتْ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِنَّهُ عَلٰى رَجْعِهٖ لَقَا دِر<p></div>
+                                        <div class="col"><p class="arabic_center"> يَوْمَ تُبْلَى السَّرَٓاىِٕرُ <p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَفَاكِهَةٍ مِّمَّايَّتَخَيَّرُ وْن<p></div>
+                                        <div class="col"><p class="arabic_center"> وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُوْنَ <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">  وَرَبَّ اٰبَٓاىِٕكُمُ اْلاَوَّلِيْنَ <p></div>
+                                        <div class="col"><p class="arabic_center"> هُوَ الَتَّوَّابُ الرَّحِيْمُ<p></div>
+                                    </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 19</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> رَبَّنَااطْمِسْ                           وَلاَ تُحَمِّلْنَا                           لاَ يُكَلِّفُ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">  فَالْمُدَبِّرٰ تِ                            فِيْشَكٍّ                                 اِلاَّذُرِّيَّةٌ<p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> يَفِرُّ الْمَرْءُ                                     هُمُ الطَّاغُوْ تَ             مِنَ الشَّيْطٰنِ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اَلضَّلٰلَةُ                                بِالْغُدُ وِّ                           اٰمَنَ السُّفَهَٓاءُ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> جُيُوْبِهِنَّ                             اَوْاٰ بَٓاىِٕهِنَّ                           اَوِالتَّابِعِيْنَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> لاَ شَرْ قِيَّةٍ                            لِلْمُتَّقِيْنَ                          اَلَّذِيْنَ اشْتَرَ وْا<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> ثَمَّ اقْضُوْا                           وَ مَلٰٓىِٕكَتِهٖ                            فِى السَّرَّٓاءِ<p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَالضَّرَّٓاءِ                            اَوْلِيٰٓىُٔهُمْ                            فِى الظُّلُمٰتِ<p></div>
+                                        
+                                    </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 20</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> Ketemu اَ كَفَرُ تُمْ بَعْدَ اِيْمَا نِكُمْ   مْ   ن Dibaca dengung<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> فَبَشِّرْ هُمْ بِعَذَابٍ اَلِيْمٍ <p></div>
+                                        <div class="col"><p class="arabic_center"> وَزَوَّجْنٰهُمْ جِحُوْرٍ عِيْنٍ<p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> تَرْمِيْهِمْ جِحَجَارَةٍ <p></div>
+                                        <div class="col"><p class="arabic_center"> وَمَا هُمْ بِمُؤْمِنِيْنَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَجَزَيٰهُمْ بِمَاصَبَرُوْا <p></div>
+                                        <div class="col"><p class="arabic_center"> وَمَاصَاحِبُكُمْ بِمَجْنُونٍ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> اِلآَّاَسَاطِيْرُ اْلاَوَّلِيْنَ<p></div>
+                                        <div class="col"><p class="arabic_center"> كَاَنَّهُنَّ قَيْضٌ مَكْنُوْنٌ <p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> عَلَيْهِمْ بِاْلاِ ثْمِ وَالْعُدْوَانِ<p></div>
+                                        <div class="col"><p class="arabic_center"> وَهُوَ خَيْرُا لرّٰزِقِيْنَ<p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَ يُطَهِّرَكُمْ تَطْهِيْرًا<p></div>
+                                        <div class="col"><p class="arabic_center"> ذُوْاَلْجَلَٰلِ وَاْلإِكْرَامِ <p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> وَكَفِّرْ عَنَّاسَيِّاٰ تِناَ <p></div>
+                                        <div class="col"><p class="arabic_center"> وَتَوَفَّنَا مَعَ اْلاَبْرَارِ <p></div>
+                                        
+                                    </div>                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 21</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                     <div class="container">
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">قَدْأَفْلَحَ الْمُؤْمِنُوْنَ o آلَّذِيْنَ هُمْ فِى صَلاَتِهِمْ خَشِعُوْنَ</p></div>
+                                   
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">وَالَّذِيْنَ هُمْ عَنِ الَّغْوِمُعْرِضٌوْنَ o وَالَّذِيْنَ هُمْ</p></div>
+                                    
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">لِلزَّكَوةِفَعِلُوْنَ o وَالَّذِيْنَ هُمْ لِفُرٌوْجِهِمْ حَفِظٌوْنَ</p></div>
+                                   
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center"> إِلاَّعَلَىأَزْوَجِهِمْ أَوْمَامَلَكَتْ أَيْمَنُهُمْ فَإِنَّهُمْ o</p></div>
+                                    
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">غَيْرُمَلُوْمِيْنَ o فَمِنْ آبْتَغَى وَرَآءَذَلِكَ فَأُوْلَئِكَ هُمُ</p></div>
+                                   
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">o آوَآلَّذِيْنَ هُمْ لِأَمَنَتِهِمْ وَعَهْدِهِمْ رَاعُوْنَ o آلْعَدُوْنَ </p></div>
+                                    
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center">أُوْلَئِكَ هُمُ o وَآلَّذِيْنَ هُمْ عَلَى صَلَوَاتِهِمْ يُحَافِظُوْنَ  </p></div>
+                                   
+                                </div>
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col"><p class="arabic_center"> آلَّذِيْنَ يَرِثُوْنَ الْفِرْدَوْسَ هُمْ فِيْهَاخَالِدُوْنَ o آلْوَارِثُوْنَ </p></div>
+                                    
+                                </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 22</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">Bila sebelumnya berharokat A atau U maka dibaca LOH وَاللَّهُ - رَسُوْلُ اللَّهِ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">قُلْ هٌوَاللَّهُ أَحَدٌ</p></div>
+                                        <div class="col"><p class="arabic_center">آللَّهُ الصَّمَدُ</p></div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَأَكْثَرُوْافِيْهَا الْفَسَدَ</p></div>
+                                        <div class="col"><p class="arabic_center">آلَّذِيْنَ طَغَوْافِى الْبِلَدِ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَأِذَاهُمْ بِآلسَّهِرَةِ</p></div>
+                                        <div class="col"><p class="arabic_center">تِلْكَءَايَتُ اللَّهِ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَضَّلَ اللَّهُ الْمُجَهِدِيْنَ</p></div>
+                                        <div class="col"><p class="arabic_center">يَصْلَوْنَهَايَوْمَ الَّذِيْنَ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَرَبُ الْعَرْشِ الْعَظِيْمِ</p></div>
+                                        <div class="col"><p class="arabic_center">وَاللَّهُ وَلِيُّ الْمُؤْمِنِيْنَ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">يُبَيِّنُ اللَّهُءَايَتِهِ</p></div>
+                                        <div class="col"><p class="arabic_center">تِلْكَ  حُدُوْدُاللَّهِ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَاتَّقُوْاللَّهَ الَّذيْ تَسَآءَلُوْنَ بِهِ وَالْاَرْحَامَ</p></div>
+                                        
+                                    </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 23</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">Bila sebelumnya berharokat I maka bacalh LAH لِلَّهِ  بِآللَّهِ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَآلْحَمْدُلِلَّهِ</p></div>
+                                        <div class="col"><p class="arabic_center">بِسْمِ اللَّهِ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">خَلَقَ الْمَوْتَ وَالْحَيَوَاتَ</p></div>
+                                        <div class="col"><p class="arabic_center">وَلاَقُوَّةَإِلاَّبِآللَّهِ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَيُرْسِلُ عَلَيْكٌمْ حَفَظَةً</p></div>
+                                        <div class="col"><p class="arabic_center">أَفَأَمِنُوْامَكْرَآللَّهِ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَهُوَالْعَلِيُّ الْعَظِيْمُ</p></div>
+                                        <div class="col"><p class="arabic_center">وَهُوَبِكُلَّ شَيْءٍعَلِيْمٌ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَآللَّهُ بِمَاتَعْمَلُوْنَ عَلِيْمٌ</p></div>
+                                        <div class="col"><p class="arabic_center">يُحَاسِبْكُمْ بِهِ اللَّهِ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَكَفَى بِآللَّهِ شَهِيْدَا</p></div>
+                                        <div class="col"><p class="arabic_center">قُلِ اللَّهُ أسْرَعُ مَكْرًا</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَجَعَلَهُ غُثَآءًأَحْوَى</p></div>
+                                        <div class="col"><p class="arabic_center">وَآلَّذِىْ أَخْرَجَ الْمَرْعَى</p></div>
+                                        
+                                    </div>                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 24</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">Masuk dengan suara tak dengung ر Jadi suara نْ /tanwin hilang (-ً-ٍ-ٌ) نْ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">مَنْ رَءَاى   =   مَنْ رَّءَاى</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">خَافِضَةٌ - رَافِعَةٌ  =  خَافِضَةٌ - رَّافِعَةٌ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَآللَّهُ غَفُوْرٌحَلِيْمٌ</p></div>
+                                        <div class="col"><p class="arabic_center">وَآللَّهُ غَفُوْرٌرَّحِيْمٌ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">إِنَّ إِلَى رَبِّكَ آلرًّجْعَى</p></div>
+                                        <div class="col"><p class="arabic_center">أَنْرَّءَاهُسْتَغْنَى</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَللَّهِ آلْأَخِرَةِوَآلْأُوْلَى</p></div>
+                                        <div class="col"><p class="arabic_center">لَهُ شِهَابًارَّصَدًا</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَلِلَّهِ آلْأَسْمَآءُآلْحُسْنَى</p></div>
+                                        <div class="col"><p class="arabic_center">عَلَى آللَّهِ تَوَكَّلْنَا</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَهَزَمُوْهُمْ بِإِذْنِ آللَّهِ</p></div>
+                                        <div class="col"><p class="arabic_center">فِى عِيْشَةٍرَّضِيَةٍ</p></div>
+                                        
+                                    </div>                          
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 25</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">Masuk dengan suara tak dengung ل Jadi suara نْ /tanwin hilang (-ً-ٍ-ٌ) نْ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">خَيْرٌ - لَكَ - خَيْرٌلَّكَ</p></div>
+                                        <div class="col"><p class="arabic_center">مَنْ - لَمْ - مَنْ لَّمْ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">إِنَّهُ بِهِمْ رَءُفُرَّحِيْمٌ</p></div>
+                                        <div class="col"><p class="arabic_center">ذِكْرٌلِلْعَلَمِيْنَ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَآللَّهُ غَنِيٌّ حَلِيْمٌ</p></div>
+                                        <div class="col"><p class="arabic_center">يَوْمَئِذٍلَّلْمُكَذِّبِيْنَ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَمَنْ لَمْ يَجِدْفَصِيَامُ ثَلَثَةِأَيَّمٍ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَرِيْ ضَةًمِّنَ آللَّهِ</p></div>
+                                        <div class="col"><p class="arabic_center">فَإِنْ لَّمْ يَكُنْ لَّهُ وَلَدٌ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">مِنْ مَّغْرَمٍ مُّثْقَلُوْنَ</p></div>
+                                        <div class="col"><p class="arabic_center">وَلَكِنْ لاَّتَشْعُرُوْنَ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">يَعْلَمُ آلسِّرَّوَأَخْفَى</p></div>
+                                        <div class="col"><p class="arabic_center">خَيْرٌلَّكَ مِنَ آلْأُوْلَى</p></div>
+                                        
+                                    </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 26</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَهَدَيْنَهُ آلنَّجْدَيْنِ</p></div>
+                                        <div class="col"><p class="arabic_center">أَلَمْ نَجْعَلْ لَّهُ عَيْنَيْنِ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَإِنَّ عَلَيْكُمْ لَحَفِظِيْنَ</p></div>
+                                        <div class="col"><p class="arabic_center">طَآئِفَةٌمَّنَ آلْمُؤْمِنِيْنَ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">تُوْسُوْنَ بِهَآأَوْدَيْنٍ</p></div>
+                                        <div class="col"><p class="arabic_center">يَوَيْلَنَآإِنَّاكُنَّاطَغِيْنَ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">إِنَّآإِلَى اللَّهِ رَاغِبُوْنَ</p></div>
+                                        <div class="col"><p class="arabic_center">وَآللَّهُ خَيْرُآلرَّزِقِيْنَ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَآتَّقُوْآللَّهَ وَأَطِيْعُوْنَ</p></div>
+                                        <div class="col"><p class="arabic_center">بُعْدًالِّقَوْمٍ لاَّيُؤْمِنُوْنَ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">قُتِلَ أَصْحَبُ آلْأُحْدُوْدِ</p></div>
+                                        <div class="col"><p class="arabic_center">وَمَامَسَّنَامِنْ لُّغُوْبٍ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">إِلاَّمَنْ رَّحِمَ آللَّهُ</p></div>
+                                        <div class="col"><p class="arabic_center">مِنْ أَيِّ شَيْءٍخَلَقَهُ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">يُؤْتِى مَالَهُ يَتَزَكَّى</p></div>
+                                        <div class="col"><p class="arabic_center">سَيَقُوْلُوْنَ لِلَّهِ</p></div>
+                                        
+                                    </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 27</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center"> ( ّ ~) Bacaan harus panjang 6 harokat baru diikuti dengan tasydid - وَلاَالضَّآلِّيْنَ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">إِنَّ مَعَ آلْعُسْرِيُسْرًا</p></div>
+                                        <div class="col"><p class="arabic_center">جَآءَتِ آلطَّآمَّةُآلْكُبْرَى</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">الْحَآقَّةُ مَاآلْحَآقَّةُ</p></div>
+                                        <div class="col"><p class="arabic_center">وَلَمْ يَكُنْ لَّهُ كُفُوًاأَحَدٌ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَآلْأَمْرُيَوْمَئِذٍلِّلَّهِ</p></div>
+                                        <div class="col"><p class="arabic_center">فَإِذَاجَآءَتِ آلصَّآخَّةُ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَلاَتَحَآلضُّوْنَ</p></div>
+                                        <div class="col"><p class="arabic_center">وَكُلُوْامِنْ رِّزْقِهِ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَوَجَدَكَ ضَآلاًّفَهَدَى</p></div>
+                                        <div class="col"><p class="arabic_center">بَلْ هُوَخَيْرٌلَّكُمْ</p></div>
+                                        
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَآللَّهُ وَلِيُّ آلْمُتَّقِيْنَ</p></div>
+                                        <div class="col"><p class="arabic_center">وَإِنَّالَنَحْنُ آلصَّآفُّوْنَ</p></div>
+                                    
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">إنَّهُ كَانَ مِنَ آلضَّآلِّيْنَ</p></div>
+                                        <div class="col"><p class="arabic_center">آلَّذِى يَدُعُّ آلْيَتِيْمَ</p></div>
+                                        
+                                    </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 28</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">اِنَّ اِلىَ رَبِّكَ الرُّجْعَى</p></div>
+                                        <div class="col"><p class="arabic_center">اِنْ اَرَدْنَآاِلاَّاْلحُسْنَ</p></div>                                          
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَالزَّجِرَتِ زَجْرًا</p></div>  
+                                        <div class="col"><p class="arabic_center">وَالصَّفَّتِ صَفًّا</p></div> 
+                                    </div>
+                                        <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَاْلمُؤْتَفِكَةَ اَهْوَى</p></div>
+                                        <div class="col"><p class="arabic_center">وَكَفَى بِاللَّهِ شَهِيْدًا</p></div>                                       
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">مَتَاعًا لَّكُمْ وَلِاَنْعَامِكُمْ</p></div>
+                                        <div class="col"><p class="arabic_center">نِسَآؤُكُمْ حَرْثٌ لَّكُمْ</p></div>                                        
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">اَلآاِنَّهَاقُرْبَةٌ لَّكُمْ</p></div>
+                                        <div class="col"><p class="arabic_center">فُضِّلُوْابِرَآدِّيْ رِزْقِهِمْ</p></div>                                      
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">اِنَّ اللَّهَ مَعَ الصَّبِرِيْنَ</p></div>
+                                        <div class="col"><p class="arabic_center">وَقُوْمُوْالِلَّهِ قَنِتِيْنَ</p></div>                                        
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَاَنَّ اللَّهَ تَوَّابٌ حَكِيْمٌ</p></div>
+                                        <div class="col"><p class="arabic_center">اِنَّ اللَّهَ سَمِيْعٌ عَلِيْمٌ</p></div>                                           
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">خَافِضَةٌرَّافِعَةٌ</p></div>
+                                        <div class="col"><p class="arabic_center">حَتَّى تَأْتِيَهُمُ اْلبَيِّنَةُ</p></div>                                  
+                                    </div>                                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 29</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">EBTA > Bila telah benar semuanya walaupun pelan pembacanya boleh dinaikkan ke jilid 6</p></div>                                          
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">مُحَمَّدٌرَّسُوْلُ اللَّهِ</p></div>  
+                                        <div class="col"><p class="arabic_center">لآاِلَهَ اِلاَّاللَّهُ</p></div> 
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">اَلَّذِيْنَ يُؤْمِنٌوْنَ بِاْلغَيْبِ وَيُقِيْمُوْنَ الصَّلَوةَ</p></div>                                     
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">اِنَّ اْلفَضْلَ بِيَدِاللَّهِ</p></div>
+                                        <div class="col"><p class="arabic_center">وَيُؤْتُوْنَ الزَّكَوةَ</p></div>                                        
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">وَهُوَاللَّطِيْفُ اْلخَبِيْرُ</p></div>
+                                        <div class="col"><p class="arabic_center">لِكٌلِّ اَوَّابٍ حَفِيْظٍ</p></div>                                      
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">فَرَاَهُ فِيْ سَوَآءِاْلجَحِيْمِ</p></div>
+                                        <div class="col"><p class="arabic_center">اِنْ هُمْ اِلاَّيَظُنُّوْنَ</p></div>                                        
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">هُمْ اَصْحَبُ اْلمَشْئَمَةِ</p></div>
+                                        <div class="col"><p class="arabic_center">وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ</p></div>                                           
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col"><p class="arabic_center">اَلَّتِيْ تَطَّلِعُ عَلَى اْلاَفْئِدَةِ</p></div>
+                                        <div class="col"><p class="arabic_center">نَارُاللَّهِ اْلمُوْقَدَةُ</p></div>                                  
+                                    </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="judul">
+                                    <h4 align="center" style="color:white; background-color:black">Halaman 30</h4>
+                                    <br>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                            <div class="col"><p class="arabic_center">وَاِنْ لَّمْ تَغْفِرْلَنَاوَتَرْحَمْنَا لَنَكُوْنَنَّ مِنَ اْلخَسِرِيْنَ</p></div>                                         
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col"><p class="arabic_center">فَطَافَ عَلَيْهَاطَآئِفٌ مِّنْ رَّبِّكَ وَهُمْ نَآئِمُوْنَ</p></div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col"><p class="arabic_center">وَاِذَارَاَوْهُمْ قَالُوَآاِنَّ هَؤُلآءِلَضَآلُّوْنَ</p></div>                                     
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col"><p class="arabic_center">وَلاَنُكَذِّبُ بِاَيَتِ رَبِّنَاوَنَكُوْنَنَّ مِنَ اْلمُؤْمِنِيْنَ</p></div>                                      
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col"><p class="arabic_center">فَلَمَّاجَآءَهُمْ بِاَيَتِنَآاِذَاهُمْ مِّنْهَايَضْحَكُوْنَ</p></div>                                    
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col"><p class="arabic_center">وَرَاَيْتَ النَّاسَ يَدْخُلُوْنَ فِيْ دِيْنِ اللَّهِ اَفْوَاجًا</p></div>                                      
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col"><p class="arabic_center">فَسَبِّحْ بِحَمْدِرَبِّكَ وَاسْتَغْفِرْهُ اِنَّهَ كَانَ تَوَّابًا</p></div>                                         
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col"><p class="arabic_center">MAAF ! Bila belum benar semuanya sebaiknya tak segan mengulang</p></div>                                 
+                                        </div>                    
+                                    </div>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+            </div>         
             <!-- End of Content -->
 
             <!-- Footer -->
